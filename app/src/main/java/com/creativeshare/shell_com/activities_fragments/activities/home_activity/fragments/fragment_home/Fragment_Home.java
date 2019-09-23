@@ -61,21 +61,20 @@ public class Fragment_Home extends Fragment {
 
 
     private void setUpBottomNav() {
-        AHBottomNavigationItem item1 = new AHBottomNavigationItem(R.string.home, R.drawable.ic_home, R.color.colorPrimary);
-        AHBottomNavigationItem item2 = new AHBottomNavigationItem(R.string.orders, R.drawable.ic_cart, R.color.colorPrimary);
-        AHBottomNavigationItem item3 = new AHBottomNavigationItem(getString(R.string.not), R.drawable.ic_notification, R.color.colorPrimary);
-        AHBottomNavigationItem item4 = new AHBottomNavigationItem(R.string.accountِ, R.drawable.ic_user_profile, R.color.colorPrimary);
-        AHBottomNavigationItem item5 = new AHBottomNavigationItem(R.string.more, R.drawable.ic_more, R.color.colorPrimary);
+        AHBottomNavigationItem item1 = new AHBottomNavigationItem(R.string.home, R.drawable.ic_home, R.color.gray4);
+        AHBottomNavigationItem item2 = new AHBottomNavigationItem(R.string.orders, R.drawable.ic_cart, R.color.gray4);
+        AHBottomNavigationItem item3 = new AHBottomNavigationItem(getString(R.string.not), R.drawable.ic_notification, R.color.gray4);
+        AHBottomNavigationItem item4 = new AHBottomNavigationItem(R.string.accountِ, R.drawable.ic_user_profile, R.color.gray4);
+        AHBottomNavigationItem item5 = new AHBottomNavigationItem(R.string.more, R.drawable.ic_more, R.color.gray);
 
         bottomNavigationView.addItem(item1);
         bottomNavigationView.addItem(item2);
         bottomNavigationView.addItem(item3);
         bottomNavigationView.addItem(item4);
         bottomNavigationView.addItem(item5);
-
-        bottomNavigationView.setAccentColor(ContextCompat.getColor(activity, R.color.yellow1));
-        bottomNavigationView.setDefaultBackgroundColor(ContextCompat.getColor(activity, R.color.white));
-        bottomNavigationView.setInactiveColor(ContextCompat.getColor(activity, R.color.black));
+        bottomNavigationView.setInactiveColor(ContextCompat.getColor(getActivity(),R.color.gray4));
+        bottomNavigationView.setAccentColor(ContextCompat.getColor(getActivity(),R.color.colorPrimary));
+        bottomNavigationView.setDefaultBackgroundColor(ContextCompat.getColor(getActivity(),R.color.white));
         bottomNavigationView.setForceTint(true);
         bottomNavigationView.setTitleState(AHBottomNavigation.TitleState.ALWAYS_SHOW);
         bottomNavigationView.setColored(false);
