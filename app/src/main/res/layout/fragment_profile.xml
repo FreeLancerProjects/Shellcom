@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/white"
+        android:fitsSystemWindows="true">
+
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:titleEnabled="false"
+            android:fitsSystemWindows="true"
+            >
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="56dp"
+                >
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"
+                    />
+
+                <com.iarcuschin.simpleratingbar.SimpleRatingBar
+                    android:id="@+id/rateBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_name"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    app:srb_isIndicator="true"
+                    app:srb_stepSize=".5"
+                    app:srb_starSize="25dp"
+                    app:srb_starsSeparation="10dp"
+                    app:srb_numberOfStars="5"
+                    app:srb_fillColor="@color/rating"
+                    app:srb_borderColor="@color/white"
+                    app:srb_starBorderWidth="3"
+                    app:srb_drawBorderEnabled="true"
+                    app:srb_starBackgroundColor="@color/white"
+
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_collapseMode="pin"
+
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_at"
+                        android:tint="@color/white"
+                        android:padding="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:text="@string/accountِ"
+                        />
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+
+            >
+            <LinearLayout
+                android:id="@+id/ll_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                >
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_mail"
+                    android:padding="10dp"
+                    android:tint="@color/black"
+                    />
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+
+                    />
+
+
+            </LinearLayout>
+            <View
+                android:id="@+id/view_email"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gray5"
+                app:layout_constraintTop_toBottomOf="@+id/ll_email"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/ll_phone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                app:layout_constraintTop_toBottomOf="@id/view_email"
+                >
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_phone"
+                    android:padding="10dp"
+                    android:tint="@color/black"
+                    />
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_company_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/ll_phone"
+                android:orientation="vertical"
+
+
+                >
+                <View
+                    android:id="@+id/view_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/gray5"
+                    app:layout_constraintTop_toBottomOf="@+id/ll_phone"
+                    android:layout_marginTop="5dp"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    app:layout_constraintTop_toBottomOf="@id/view_email"
+                    >
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_map_pin"
+                        android:padding="10dp"
+                        android:tint="@color/black"
+                        />
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@color/black"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        />
+                    <TextView
+                        android:id="@+id/tv_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+
+                        />
+
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/gray5"
+                    app:layout_constraintTop_toBottomOf="@+id/ll_phone"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cons_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    app:layout_constraintTop_toBottomOf="@id/view_email"
+                    >
+                    <ImageView
+                        android:id="@+id/icon1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_map_pin"
+                        android:padding="10dp"
+                        android:tint="@color/black"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:clickable="false"
+                        android:longClickable="false"
+                        />
+                    <View
+                        android:id="@+id/view1"
+                        android:layout_width="1px"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@color/black"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/icon1"
+                        android:clickable="false"
+                        android:longClickable="false"
+
+
+                        />
+                    <TextView
+                        android:id="@+id/tv_city"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/view1"
+                        app:layout_constraintHorizontal_bias="0"
+                        android:clickable="false"
+                        android:longClickable="false"
+
+
+                        />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/gray5"
+                    app:layout_constraintTop_toBottomOf="@+id/ll_phone"
+                    android:layout_marginTop="5dp"
+
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gray5"
+                app:layout_constraintTop_toBottomOf="@+id/ll_phone"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/ll_register_company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@id/ll_company_data"
+                >
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    app:layout_constraintTop_toBottomOf="@id/ll_company_data"
+                    android:clickable="false"
+                    android:longClickable="false"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:text="@string/i_m_a_company"
+                        android:textStyle="bold"
+                        android:clickable="false"
+                        android:longClickable="false"
+
+
+                        />
+
+                    <ImageView
+                        android:id="@+id/arrow_company"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_right_arrow"
+                        android:padding="12dp"
+                        android:tint="@color/black"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:clickable="false"
+                        android:longClickable="false"
+
+
+                        />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/gray5"
+                    app:layout_constraintTop_toBottomOf="@+id/cons_logout"
+                    android:layout_marginTop="5dp"
+
+                    />
+            </LinearLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cons_logout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                app:layout_constraintTop_toBottomOf="@id/ll_register_company"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:text="@string/Log_out"
+                    android:textStyle="bold"
+                    android:clickable="false"
+                    android:longClickable="false"
+
+
+                    />
+
+                <ImageView
+                    android:id="@+id/arrow_logout"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_right_arrow"
+                    android:padding="12dp"
+                    android:tint="@color/black"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:clickable="false"
+                    android:longClickable="false"
+
+
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <View
+                android:id="@+id/view_logout"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gray5"
+                app:layout_constraintTop_toBottomOf="@+id/cons_logout"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="10dp"
+        app:civ_circle_background_color="@color/black"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|end"
+        android:src="@drawable/logo_512"
+        app:civ_border_width="1px"
+
+
+
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

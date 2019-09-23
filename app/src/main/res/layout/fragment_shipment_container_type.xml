@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray1"
+    android:clickable="true"
+    android:focusable="true"
+    android:fillViewport="true"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/what_kind_of_truck_do_you_need"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+
+            />
+
+        <FrameLayout
+            android:id="@+id/fl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                >
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <ProgressBar
+                android:id="@+id/progBar"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                />
+
+        </FrameLayout>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/gray2"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/choose_the_type_of_load"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+
+            />
+
+        <LinearLayout
+
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/linear_shape"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/ic_box"
+                android:layout_gravity="center_vertical"
+                android:padding="3dp"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_type"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+
+                android:hint="@string/type_of_load"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="14sp"
+                android:textColorHint="@color/gray4"
+                android:textColor="@color/black"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:weightSum="2"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:id="@+id/tv_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/number_of_trucks"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_truck_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/linear_shape"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+
+                    android:layout_marginBottom="20dp"
+
+
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/size_of_truck"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_truck_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/linear_shape"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+
+                    android:layout_marginBottom="20dp"
+
+
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

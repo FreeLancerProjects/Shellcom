@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray1"
+    android:clickable="true"
+    android:fillViewport="true"
+    android:focusable="true"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/fill_in_the_charger_information_below"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/linear_shape"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="45dp"
+                android:layout_height="35dp"
+                android:padding="8dp"
+                android:src="@drawable/ic_phone"
+                android:layout_gravity="center_vertical"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:tint="@color/black"
+
+
+                />
+
+            <TextView
+                android:id="@+id/tv_code"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_gravity="center_vertical"
+                android:textColorHint="@color/gray4"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:hint="@string/code"
+                android:gravity="center"
+                android:singleLine="true"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/icon"
+
+                />
+            <View
+                android:id="@+id/view"
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/gray4"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tv_code"
+
+                />
+
+            <EditText
+                android:id="@+id/edt_phone"
+                android:layout_width="0dp"
+                android:layout_height="37dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/white"
+                android:hint="@string/user_phone"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray4"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/view2"
+                app:layout_constraintStart_toEndOf="@id/view"
+
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/gray4"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/image_phone_code"
+                />
+
+            <ImageView
+                android:id="@+id/image_phone_code"
+                android:layout_width="40dp"
+                android:layout_height="37dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/ic_right_arrow"
+                android:tint="@color/gray4"
+                android:padding="12dp"
+
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/linear_shape"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="35dp"
+                android:padding="8dp"
+                android:src="@drawable/ic_company_name"
+                android:layout_gravity="center_vertical"
+
+                />
+
+            <EditText
+                android:id="@+id/edt_company_name"
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:hint="@string/company_name"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_gravity="center_vertical"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/linear_shape"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:src="@drawable/ic_user"
+                android:tint="@color/black"
+                android:layout_gravity="center_vertical"
+
+                />
+
+            <EditText
+                android:id="@+id/edt_responsible_name"
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:hint="@string/responsible_person"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_gravity="center_vertical"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/linear_shape"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:src="@drawable/ic_mail"
+                android:tint="@color/black"
+                android:layout_gravity="center_vertical"
+
+                />
+
+            <EditText
+                android:id="@+id/edt_email"
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:hint="@string/user_email"
+                android:inputType="textEmailAddress"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="@drawable/linear_shape"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="30dp"
+                android:padding="7dp"
+                android:src="@drawable/ic_window"
+                android:layout_gravity="center_vertical"
+
+                />
+
+            <EditText
+                android:id="@+id/edt_shipment_number"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:hint="@string/the_shipment_number_of_the_sender"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:inputType="number"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/linear_shape"
+            android:orientation="horizontal"
+
+
+            >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:src="@drawable/ic_placeholder"
+                android:tint="@color/black"
+                android:layout_gravity="center_vertical"
+
+
+                />
+
+
+            <Spinner
+                android:id="@+id/spinner_city"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/spinner"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                >
+
+            </Spinner>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+
+            >
+
+            <LinearLayout
+
+                android:id="@+id/ll_time"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/linear_shape"
+                android:orientation="horizontal"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/clock"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_down_arrow"
+                    android:tint="@color/black"
+                    android:layout_gravity="center_vertical"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="@string/time_of_load"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_vertical"
+                    />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_date"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/linear_shape"
+                android:orientation="horizontal"
+
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                >
+
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_down_arrow"
+                    android:tint="@color/black"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="@string/date_of_load"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_gravity="center_vertical"
+
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp"
+
+            >
+            <fragment
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+
+                />
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                >
+
+
+                <EditText
+                    android:id="@+id/edt_address"
+
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:hint="@string/select_your_location_on_the_map"
+                    android:singleLine="true"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/unselected_edt"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_gravity="center_vertical"
+
+
+                    />
+
+                <ImageView
+
+                    android:id="@+id/image_search"
+                    android:layout_width="45dp"
+                    android:layout_height="35dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_search"
+                    android:tint="@color/black"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/unselected_edt"
+
+
+                    />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

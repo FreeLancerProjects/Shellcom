@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray1"
+    android:clickable="true"
+    android:fillViewport="true"
+    android:focusable="true"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/txt_pay_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/please_let_us_know_your_preferred_payment_method"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintTop_toTopOf="parent"
+
+            />
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+
+            android:background="@drawable/linear_shape"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight=".1"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_pay"
+                android:tint="@color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".8"
+                android:gravity="center"
+                android:text="@string/repayment_with_an_emdad_office_or_a_delegate_return"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                />
+
+            <RadioButton
+                android:id="@+id/rb1"
+
+                android:layout_width="0dp"
+                android:layout_weight=".1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/linear_shape"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight=".1"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/pay_deliver"
+                android:tint="@color/black"
+
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".8"
+                android:gravity="center"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/payment_on_delivery"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="0dp"
+                android:layout_weight=".1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/ll3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/linear_shape"
+            android:orientation="horizontal"
+            android:weightSum="1"
+
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight=".1"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_debit_card"
+                android:tint="@color/black"
+
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".8"
+                android:gravity="center"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/credit"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="0dp"
+                android:layout_weight=".1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/send_order"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

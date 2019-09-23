@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="gray">#f9f8f2</color>
+    <color name="gray0">#FAFAFA</color>
+    <color name="gray1">#F5F5F5</color>
+    <color name="gray2">#EEEEEE</color>
+    <color name="gray3">#E0E0E0</color>
+    <color name="gray4">#bababa</color>
+    <color name="gray5">#424242</color>
+    <color name="gray6">#212121</color>
+    <color name="gray7">#757575</color>
+    <color name="yellow1">#f0bc08</color>
+    <color name="gray_transparent">#11808080</color>
+    <color name="rating">#FBC02D</color>
+    <color name="sheet_window_bg">#66000000</color>
+    <color name="delete_color">#E21B1B</color>
+    <color name="done">#198E02</color>
+
+    <color name="hawyat">#fb3568</color>
+    <color name="colorPrimary2">#450098</color>
+    <color name="colorPrimaryDark2">#450098</color>
+    <color name="colorAccent2">#450098</color>
+
+
+</resources>

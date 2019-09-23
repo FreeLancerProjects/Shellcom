@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintTop_toTopOf="parent"
+
+        >
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="230dp" />
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab"
+            android:layout_width="wrap_content"
+            android:layout_height="7dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="5dp"
+            app:tabMaxWidth="7dp"
+            app:tabMinWidth="7dp"
+            app:tabIndicatorHeight="0dp"
+            app:tabMode="scrollable"
+            app:tabGravity="fill"
+            app:tabBackground="@drawable/tab_slider_indicator"
+            />
+
+
+
+        <ProgressBar
+            android:id="@+id/progBar"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_no_ads"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="@string/there_are_no_ads_to_display"
+            android:visibility="gone"
+            />
+
+    </FrameLayout>
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fl"
+        app:layout_constraintVertical_bias=".2"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/lin_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:weightSum="2"
+
+            >
+
+            <LinearLayout
+                android:id="@+id/ll_water_delivery"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/card1"
+                android:descendantFocusability="blocksDescendants"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlCompat"
+                vi
+                >
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/ic_water_truck"
+                    android:tint="@color/white"
+                    android:clickable="false"
+                    android:longClickable="false"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/water_arrive"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:clickable="false"
+                    android:longClickable="false"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_shipment"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/card2"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="RtlCompat">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/shipping_transport"
+                    android:clickable="false"
+                    android:longClickable="false"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/shipping_and_transportation"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:singleLine="true"
+                    android:clickable="false"
+                    android:longClickable="false"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/ll_rental"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/card3"
+                android:descendantFocusability="blocksDescendants"
+                android:gravity="center"
+                android:orientation="vertical"
+
+
+                tools:ignore="RtlCompat">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/equipment"
+                    android:clickable="false"
+                    android:longClickable="false"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/rental_equipment"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:clickable="false"
+                    android:longClickable="false"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_other_services"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/card4"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="RtlCompat">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/other_services"
+                    android:padding="8dp"
+                    android:clickable="false"
+                    android:longClickable="false"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/other_services"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:clickable="false"
+                    android:longClickable="false"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>!-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fl"
+        app:layout_constraintVertical_bias=".2"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_marginTop="8dp"
+            >
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_furniture"
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="3dp"
+                app:cardBackgroundColor="@color/colorPrimary2"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:descendantFocusability="blocksDescendants"
+                    android:clickable="false"
+                    android:longClickable="false"
+                    >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="8dp"
+                        android:src="@drawable/afsh"
+                        android:clickable="false"
+                        android:longClickable="false"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="50dp"
+                        tools:ignore="RtlCompat"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:text="@string/moving_furniture"
+                        android:clickable="false"
+                        android:longClickable="false"
+
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_container"
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/hawyat"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:descendantFocusability="blocksDescendants"
+                    android:clickable="false"
+                    android:longClickable="false"
+                    >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="8dp"
+                        android:src="@drawable/hawyat"
+                        android:padding="5dp"
+                        android:clickable="false"
+                        android:longClickable="false"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="50dp"
+                        tools:ignore="RtlCompat"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:text="@string/containers"
+                        android:clickable="false"
+                        android:longClickable="false"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

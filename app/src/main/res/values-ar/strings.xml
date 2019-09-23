@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">شيل كوم</string>
+    <string name="map_api_key">AIzaSyCbc2Y5AIwZ8uUeHRUXiozGN3CnpjKT0oI</string>
+    <string name="login" >دخول</string>
+    <string name="skip">تخطي</string>
+    <string name="user_name">إسم المستخدم</string>
+    <string name="user_password">كلمة المرور</string>
+    <string name="user_email">البريد الإلكترونى</string>
+    <string name="user_phone">رقم الجوال</string>
+    <string name="register">تسجيل</string>
+    <string name="si_su">قم بتسجيل الدخول أو إنشاء حساب جديد .</string>
+    <string name="home">الرئيسية</string>
+    <string name="orders" >طلباتى</string>
+    <string name="more" >المزيد</string>
+    <string name="bank_account">الحسابات البنكية</string>
+    <string name="Condition">الشروط والاحكام</string>
+    <string name="about">عن التطبيق</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="language_setting">اعدادات اللغة</string>
+    <string name="Log_out">تسجيل الخروج</string>
+    <string name="accountِ">حسابى</string>
+    <string name="water_arrive">توصيل المياة</string>
+    <string name="choose_the_type_of_load">إختر نوع الحمولة <font color='red'>*</font></string>
+    <string name="number_of_trucks">عدد الشاحنات <font color='red'>*</font></string>
+    <string name="what_kind_of_truck_do_you_need">ما نوع الشاحنة التى تريدها ؟ <font color='red'>*</font></string>
+    <string name="fill_in_the_charger_information_below">قم بتعبئة معلومات الشاحن ادناه</string>
+    <string name="choose">اختر</string>
+    <string name="company_name">اسم الشركة</string>
+    <string name="responsible_person">الطرف المسئول</string>
+    <string name="the_shipment_number_of_the_sender">رقم الشحنة الخاص بالمرسل</string>
+    <string name="country_load">بلد التحميل</string>
+    <string name="city_load">مدينة التحميل</string>
+    <string name="select_your_location_on_the_map">حدد موقعك على الخريطة</string>
+    <string name="history_of_load">تاريخ التوصيل</string>
+    <string name="time_of_load">وقت التحميل</string>
+    <string name="next">التالى</string>
+    <string name="previous">السابق</string>
+    <string name="please_provide_us_with_the_delivery_information">نرجو تزويدنا بمعلومات التوصيل</string>
+    <string name="country_arrive">بلد التنزيل</string>
+    <string name="city_Arrive">مدينة التنزيل</string>
+    <string name="time_of_arrive">وقت التنزيل</string>
+    <string name="shipping_and_transportation">شحن ونقل</string>
+    <string name="rental_equipment">تاجير معدات</string>
+    <string name="other_services">خدمات اخرى</string>
+    <string name="user_Full_name">الاسم بالكامل</string>
+    <string name="edit">كلمة المرور</string>
+    <string name="current">الحالية</string>
+    <string name="previou">السابقة</string>
+    <string name="call">إرسال</string>
+    <string name="Message">الموضوع</string>
+    <string name="name">الاسم بالكامل</string>
+    <string name="wait">انتظر قليلا ...</string>
+    <string name="notifications">اشعارات</string>
+    <string name="ok">حسنا !</string>
+    <string name="new_user">إنشاء حساب جديد.</string>
+    <string name="description_of_the_load">وصف الحمولة</string>
+    <string name="value_of_the_load">قيمة الحمولة</string>
+    <string name="weight_of_load">وزن الحمولة (بحد أقصى 35 طن)</string>
+    <string name="image_of_load">نرجو تحميل صورة للحمولة</string>
+    <string name="image_contain_info">سيتم حذف الصور التى تحتوى على معلومات تواصل</string>
+    <string name="please_let_us_know_your_preferred_payment_method">الرجاء ابلاغنا بطريقة الدفع المفضله لديكم</string>
+    <string name="repayment_with_an_emdad_office_or_a_delegate_return">السداد لدى مكتب إمداد او مندوبة(رجعه)</string>
+    <string name="payment_on_delivery">السداد عند التسليم</string>
+    <string name="credit">إئتمان</string>
+    <string name="send_order">إرسال الطلب</string>
+    <string name="specify_the_delivery_date">حدد موعد التوصيل</string>
+    <string name="download_site">حدد موقع التوصيل</string>
+    <string name="date_of_load">تاريخ التحميل</string>
+    <string name="time_date_download">وقت التحميل</string>
+    <string name="size_of_wit">الحجم</string>
+    <string name="choose_size">إختر الحجم</string>
+    <string name="country_prompt">إختر الدولة</string>
+    <string name="title">العنوان</string>
+    <string name="information">معلومات عن الشركة</string>
+    <string name="time">الوقت</string>
+    <string name="sign_in">تسجيل دخول</string>
+    <string name="sign_up">إنشاء حساب جديد</string>
+    <string name="cancel">إلغاء</string>
+    <string name="suc"> تم بنجاح !</string>
+    <string name="field_req">الحقل مطلوب</string>
+    <string name="inv_email">البريد الالكتروني غير صحيح</string>
+    <string name="sign_up2">إنشاء حساب</string>
+    <string name="code">الكود</string>
+    <string name="email_exists">البريد الالكتروني موجود مسبقا</string>
+    <string name="something">خطأ ! تحقق من الاتصال بالانترنت</string>
+    <string name="inc_em_pas">البريد الالكتروني او كلمة المرور غير صحيحة</string>
+    <string name="there_are_no_ads_to_display">لا توجد إعلانات لعرضها</string>
+    <string name="i_m_a_company">سجلني كشركة</string>
+    <string name="city">المدينة</string>
+    <string name="address">العنوان</string>
+    <string name="commercial_image">السجل التجاري</string>
+    <string name="send">إرسال</string>
+    <string name="select_location_on_map">Select Location on Map</string>
+    <string name="perm_image_denied">لم يتمكن التطبيق للوصول الى الصور</string>
+    <string name="upload_image">تحميل الصور</string>
+    <string name="select_a_picture_to_upload">إختر صورة لرفعها</string>
+    <string name="gallery">البوم الصور</string>
+    <string name="camera">الكاميرا</string>
+    <string name="search_for_address">إبحث عن عنوان</string>
+    <string name="ch_comp_image">إختر صورة السجل التجاري</string>
+    <string name="failed">فشل ! حاول مرة اخرى لاحقا</string>
+    <string name="services">الخدمات</string>
+    <string name="general_settings">إعدادات عامة</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="terms_of_service">شروط الاستخدام</string>
+    <string name="rate_this_app">قيم التطبيق</string>
+    <string name="help">المساعدة</string>
+    <string name="about_tour">نبذة عن التطبيق</string>
+    <string name="allow_to_receive_orders">السماح بإستقبال الطلبات</string>
+    <string name="select_language">إختر اللغة</string>
+    <string name="select">إختر</string>
+    <string name="ch_city">إختر المدينة</string>
+    <string name="ch_service">إختر خدمة</string>
+    <string name="ch_cont_size">إختر الحجم</string>
+    <string name="req_sent_admin_reply">تم إرسال طلبك بنحاج ! . سوف تقوم الإدارة بمراجعك طلبك والرد عليكم.</string>
+    <string name="req_pend">طلبك قيد الإنتظار عند مراجعة طلبك سوف تقوم الادارة بالرد عليكم.</string>
+    <string name="not">إشعارات</string>
+    <string name="no_notifications_to_display">لا توجد إشعارات لعرضها</string>
+    <string name="water_delivery_order">طلبات توصيل مياة</string>
+    <string name="shipping_and_transportation_orders">طلبات شحن ونقل</string>
+    <string name="equipment_rental_orders">طلبات تأجير معدات</string>
+    <string name="back">رجوع</string>
+    <string name="shipment_and_transportation">شحن ونقل</string>
+    <string name="type_of_load">نوع الحمولة</string>
+    <string name="delivery_information">نرجو تزويدنا بمعلومات التوصيل</string>
+    <string name="ch_truck">إختر الشاحنة</string>
+    <string name="ch_img">إختر صورة</string>
+    <string name="ch_pay_mthd">إختر طريقة الدفع</string>
+    <string name="order_sent_successfull">تم إرسال الطلب بنجاح</string>
+    <string name="order_sent_successfully_order_number_is">تم إرسال طلبك بنجاح رقم طلبك هو # </string>
+    <string name="new_order">طلب جديد</string>
+    <string name="details">عرض التفاصيل</string>
+    <string name="equipment">المعدات</string>
+    <string name="size_of_equipment">الحجم</string>
+    <string name="number">العدد</string>
+    <string name="days_numbers">عدد الايام</string>
+    <string name="ch_size">إختر الحجم</string>
+
+
+
+
+    <string name="container">الحاويات</string>
+
+    <string name="provide_us_with_info">نرجو تزويدنا بمعلومات التوصيل</string>
+    <string name="truck_size">حجم الحاوية<font color='red'>*</font></string>
+    <string name="container_type">نوع الحاوية<font color='red'>*</font></string>
+
+    <string name="engineering_consultances">استشارات هندسيه</string>
+    <string name="provide_us_with_info2">نرجو تزويدنا بالمعلومات الاتيه</string>
+    <string name="property_type">نوع العقار<font color='red'>*</font></string>
+    <string name="area">المساحة</string>
+    <string name="property_image">صورة للعقار<font color='red'>*</font></string>
+    <string name="details_of_the_reference">تفاصيل الاستشارة</string>
+    <string name="customs_clearance">تخليص جمركى</string>
+    <string name="image_delete">سيتم حذف الصور التى لا تحتوى على المعلومات المطلوبة</string>
+    <string name="model_four">نموذج 4 من البنك<font color='red'>*</font></string>
+    <string name="business_register">سجل تجارى او صناعى<font color='red'>*</font></string>
+    <string name="tax_card">بطاقة ضريبية<font color='red'>*</font></string>
+    <string name="import_card">بطاقة استيرادية<font color='red'>*</font></string>
+    <string name="customs_card">بطاقة الجمارك<font color='red'>*</font></string>
+    <string name="load_description">وصف الحمولة</string>
+    <string name="ch_con_type">إختر نوع الحاوية</string>
+    <string name="sel_m4_img">إختر صورة نوزج 4</string>
+    <string name="sel_com_img">إختر صورة السجل التجاري</string>
+    <string name="sel_tx_img">إختر صورة البطاقة الضريبية</string>
+    <string name="sel_imp_img">إختر صورة بطاقة استيرادية</string>
+    <string name="sel_cus_img">إختر صورة بطاقة جمارك</string>
+    <string name="the_type_of_shipment_required_from_abroad">نوع الشحنة المطلوبة من الخارج</string>
+    <string name="size_of_truck">حجم الشاحنة</string>
+    <string name="type_of_load3">نوع الحمولة</string>
+    <string name="number_of_truck2">عدد الشاحنات</string>
+    <string name="no_load_to_display">لا يوجد أنواع شحنة لعضها</string>
+    <string name="no_sizes">لا توجد أحجام لعرضها</string>
+    <string name="number_of_truck">عدد الشاحنات</string>
+    <string name="ch_trc_number">إختر عدد الشاحنات</string>
+    <string name="order_number">رقم الطلب</string>
+    <string name="order_state">حالة الطلب</string>
+    <string name="add_rate">إضافة تقييم</string>
+
+    <string name="just_now">الان</string>
+    <string name="a_minute_ago">منذ دقيقة</string>
+    <string name="min">دقيقة</string>
+    <string name="an_hour_ago">منذ ساعة</string>
+    <string name="hs">ساعة</string>
+    <string name="yesterday">امس</string>
+    <string name="day">يوم</string>
+    <string name="wd">توصيل مياة</string>
+    <string name="re">تأجير معدات</string>
+    <string name="st">شحن ونقل</string>
+    <string name="con">حاويات</string>
+    <string name="cc">تخليص جمركي</string>
+    <string name="ec">إستشارات هندسية</string>
+    <string name="ch_prop_type">إختر نوع العقار</string>
+    <string name="delivery_time">وقت التوصيل</string>
+    <string name="delivery_date">تاريخ التوصيل</string>
+    <string name="already_company">انت مسجل كشركة بالفعل</string>
+    <string name="accept">الموافقة</string>
+    <string name="refuse">الرفض</string>
+    <string name="order">طلب</string>
+    <string name="water_delivery">توصيل مياة</string>
+    <string name="show_on_map">عرض الموقع على الخريطة</string>
+    <string name="cost">التكلفة</string>
+    <string name="num_truck">عدد الشاحنات</string>
+    <string name="ship_trans">طلب شحن ونقل</string>
+    <string name="from">من</string>
+    <string name="load_time">وقت التحميل</string>
+    <string name="to">إلى</string>
+    <string name="truck">شاحنة</string>
+    <string name="ship_number">رقم الشحنة</string>
+    <string name="arrival_time">وقت التوصيل</string>
+    <string name="desc">الوصف</string>
+    <string name="weight">الوزن</string>
+    <string name="value">القيمة</string>
+    <string name="rental_equip">تأجير معدات</string>
+    <string name="amount">العدد</string>
+    <string name="used_time">الوقت المستخدم</string>
+    <string name="cont_order">طلب حاويات</string>
+    <string name="type">النوع</string>
+    <string name="eng_cons_order">طلب إستشارات هندسية</string>
+    <string name="model_4_image">صورة نموذج 4</string>
+    <string name="tax_card_img">صورة بطاقة ضريبية</string>
+    <string name="import_image">صورة بطاقة إستيرادية</string>
+    <string name="cus_card_img">صورة بطاقة جمارك</string>
+    <string name="ship_type">نوع الشحنة</string>
+    <string name="cust_clear_order">طلب تخليص جمركي</string>
+    <string name="prop_type">نوع العقار</string>
+    <string name="prop_image">صورة العقار</string>
+    <string name="sar">ر.س</string>
+    <string name="no_orders_to_display">لا توجد طلبات لعرضها</string>
+    <string name="order_accepted">تم الموافقة على طلبك</string>
+    <string name="done">تم الانجاز</string>
+    <string name="we_pleaser">سعداك لخدمة سيادتكم.</string>
+    <string name="moving_furniture">نقل عفش</string>
+    <string name="containers">حاويات</string>
+
+</resources>

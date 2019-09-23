@@ -1,0 +1,468 @@
+<?xml version="1.0"?>
+
+<resources>
+
+    <string name="app_name">شيل كوم</string>
+
+    <string name="map_api_key">AIzaSyCbc2Y5AIwZ8uUeHRUXiozGN3CnpjKT0oI</string>
+
+    <string name="login">میں لاگ ان کریں</string>
+
+    <string name="skip">چھوڑ دو</string>
+
+    <string name="user_name">صارف کا نام</string>
+
+    <string name="user_password">پاس ورڈ</string>
+
+    <string name="user_email">ای میل</string>
+
+    <string name="user_phone">فون نمبر</string>
+
+    <string name="register">رجسٹر کریں</string>
+
+    <string name="si_su">برائے مہربانی سائن ان کریں یا سائن اپ کریں.</string>
+
+    <string name="home">گھر</string>
+
+    <string name="orders">میرا حکم</string>
+
+    <string name="accountِ">پروفائل</string>
+
+    <string name="more">مزید</string>
+
+    <string name="bank_account">بینک اکاؤنٹ</string>
+
+    <string name="Condition">شرائط و ضوابط</string>
+
+    <string name="about">ایپ کے بارے میں</string>
+
+    <string name="contact_us">ہم سے رابطہ کریں</string>
+
+    <string name="language_setting">زبان کی ترتیبات</string>
+
+    <string name="Log_out">لاگ آوٹ</string>
+
+    <string name="water_arrive">پانی کی فراہمی</string>
+
+
+    -
+    <string name="choose_the_type_of_load">
+لوڈ کی قسم منتخب کریں
+<font color="red">*</font>
+
+</string>
+
+
+    -
+    <string name="number_of_trucks">
+ٹرک کی تعداد
+<font color="red">*</font>
+
+</string>
+
+
+    -
+    <string name="what_kind_of_truck_do_you_need">
+آپ کو کیا قسم کی ٹرک کی ضرورت ہے؟
+<font color="red">*</font>
+
+</string>
+
+    <string name="fill_in_the_charger_information_below">ذیل میں چارجر کی معلومات کو بھریں</string>
+
+    <string name="choose">منتخب کریں</string>
+
+    <string name="company_name">کمپنی کا نام</string>
+
+    <string name="responsible_person">ذمہ دار نام</string>
+
+    <string name="the_shipment_number_of_the_sender">شپمنٹ نمبر</string>
+
+    <string name="country_load">ملک کی لوڈ</string>
+
+    <string name="city_load">شہر لوڈ</string>
+
+    <string name="select_your_location_on_the_map">نقشے پر اپنا مقام منتخب کریں</string>
+
+    <string name="history_of_load">لوڈ کی تاریخ</string>
+
+    <string name="time_of_load">وقت</string>
+
+    <string name="next">اگلے</string>
+
+    <string name="previous">پچھلا</string>
+
+    <string name="please_provide_us_with_the_delivery_information">براہ کرم ہمیں ترسیل کی معلومات فراہم کریں</string>
+
+    <string name="country_arrive">ملک پہنچ</string>
+
+    <string name="city_Arrive">شہر پہنچ گیا</string>
+
+    <string name="time_of_arrive">پہنچنے کا وقت</string>
+
+    <string name="shipping_and_transportation">شپمنٹ اور منتقلی</string>
+
+    <string name="rental_equipment">رینٹل کا سامان</string>
+
+    <string name="other_services">دیگر خدمات</string>
+
+    <string name="user_Full_name">نام</string>
+
+    <string name="edit">ترمیم</string>
+
+    <string name="current">موجودہ</string>
+
+    <string name="previou">پچھلا</string>
+
+    <string name="call">بھیجیں</string>
+
+    <string name="Message">مضمون</string>
+
+    <string name="name">نام</string>
+
+    <string name="wait"> ...انتظار کرو</string>
+
+    <string name="notifications">اطلاع</string>
+
+    <string name="ok">ٹھیک ہے</string>
+
+    <string name="new_user">سائن اپ کریں</string>
+
+    <string name="description_of_the_load">لوڈ کا تفصیل</string>
+
+    <string name="value_of_the_load">لوڈ کا ویلیو</string>
+
+    <string name="weight_of_load">لوڈ کا وزن (زیادہ سے زیادہ 35 ٹن)</string>
+
+    <string name="image_of_load">براہ کرم لوڈ کی تصویر اپ لوڈ کریں</string>
+
+    <string name="image_contain_info">رابطے کی معلومات پر مشتمل تصاویر کو حذف کردیے جائیں گے</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="please_let_us_know_your_preferred_payment_method">براہ مہربانی ہمارے پسندیدہ ادائیگی کا طریقہ معلوم کریں</string>
+
+    <string name="repayment_with_an_emdad_office_or_a_delegate_return">ایمدام آفس یا ایک نمائندہ کے ساتھ واپسی (واپسی)</string>
+
+    <string name="payment_on_delivery">ترسیل پر ادائیگی</string>
+
+    <string name="credit">کریڈٹ</string>
+
+    <string name="send_order">آرڈر بھیجیں</string>
+
+    <string name="specify_the_delivery_date">ترسیل کی تاریخ کی وضاحت کریں</string>
+
+    <string name="download_site">ڈلیوری مقام کا انتخاب کریں</string>
+
+    <string name="date_of_load">تاریخ</string>
+
+    <string name="time_date_download">وقت کی تاریخ ڈاؤن لوڈ</string>
+
+    <string name="size_of_wit">سائز</string>
+
+    <string name="suc">!کامیابی</string>
+
+    <string name="choose_size">سائز منتخب کریں</string>
+
+    <string name="country_prompt">ایک ملک کا انتخاب کریں</string>
+
+    <string name="title">عنوان</string>
+
+    <string name="information">معلومات</string>
+
+    <string name="time">وقت</string>
+
+    <string name="sign_in">داخلہ</string>
+
+    <string name="sign_up">سائن اپ کریں</string>
+
+    <string name="cancel">منسوخ کریں</string>
+
+    <string name="field_req">فیلڈ کی ضرورت ہے</string>
+
+    <string name="inv_email">غلط ای میل ایڈریس</string>
+
+    <string name="sign_up2">سائن اپ</string>
+
+    <string name="code">کوڈ</string>
+
+    <string name="email_exists">ای میل موجود ہے</string>
+
+    <string name="something">Error ! کچھ ہو گیا ہے</string>
+
+    <string name="inc_em_pas">غلط ای میل یا پاس ورڈ</string>
+
+    <string name="there_are_no_ads_to_display">ظاہر کرنے کے لئے کوئی اشتھارات نہیں ہیں</string>
+
+    <string name="i_m_a_company">میں ایک کمپنی ہوں</string>
+
+    <string name="city">شہر</string>
+
+    <string name="address">ایڈریس</string>
+
+    <string name="commercial_image">تجارتی تصویر</string>
+
+    <string name="send">بھیجیں</string>
+
+    <string name="select_location_on_map">نقشہ پر مقام منتخب کریں</string>
+
+    <string name="perm_image_denied">اجازت نہیں دی گئی</string>
+
+    <string name="upload_image">تصویر انٹرنیٹ پر ڈالنا</string>
+
+    <string name="select_a_picture_to_upload">پ لوڈ کرنے کیلئے ایک تصویر منتخب کریں</string>
+
+    <string name="gallery">نگارخانہ</string>
+
+    <string name="camera">کیمرے</string>
+
+    <string name="search_for_address">ایڈریس کے لئے تلاش کریں</string>
+
+    <string name="ch_comp_image">تجارتی تصویر منتخب کریں</string>
+
+    <string name="failed">Failed ! بعد میں دوبارہ کوشش کریں</string>
+
+    <string name="services">خدمات</string>
+
+    <string name="general_settings">عام ترتیبات</string>
+
+    <string name="edit_profile">پروفائل میں ترمیم کریں</string>
+
+    <string name="terms_of_service">سروس کی شرائط</string>
+
+    <string name="rate_this_app">اس اپلی کیشن کی شرح</string>
+
+    <string name="help">مدد</string>
+
+    <string name="about_tour">ٹور کے بارے میں</string>
+
+    <string name="allow_to_receive_orders">احکامات حاصل کرنے کی اجازت دیں</string>
+
+    <string name="select_language">زبان منتخب کریں</string>
+
+    <string name="select">منتخب کریں</string>
+
+    <string name="ch_city">شہر کا انتخاب کریں</string>
+
+    <string name="ch_service">سروس کا انتخاب کریں</string>
+
+    <string name="ch_cont_size">کنٹینر کا سائز منتخب کریں</string>
+
+    <string name="req_sent_admin_reply">آپ کی درخواست کامیابی سے بھیجی گئی ہے! . ایڈمن آپ کی درخواست کا جائزہ لیں گے اور جواب دیں گے.</string>
+
+    <string name="req_pend">آپ کی درخواست زیر التواء ہے</string>
+
+    <string name="not">اطلاعات</string>
+
+    <string name="no_notifications_to_display">ظاہر کرنے کے لئے کوئی اطلاعات نہیں</string>
+
+    <string name="water_delivery_order">پانی کی ترسیل کا حکم</string>
+
+    <string name="shipping_and_transportation_orders">شپنگ اور نقل و حمل کے احکامات</string>
+
+    <string name="equipment_rental_orders">آلات رینٹل آرڈر</string>
+
+    <string name="back">پیچھے</string>
+
+    <string name="shipment_and_transportation">شپمنٹ اور نقل و حمل</string>
+
+    <string name="type_of_load">لوڈ کی قسم</string>
+
+    <string name="delivery_information">حوالگی کی معلومات</string>
+
+    <string name="ch_truck">ٹرک کا انتخاب کریں</string>
+
+    <string name="ch_img">تصویر منتخب کریں</string>
+
+    <string name="ch_pay_mthd">ادائیگی کے طریقہ کار کا انتخاب کریں</string>
+
+    <string name="order_sent_successfull">آرڈر کامیابی سے بھیجا گیا</string>
+
+    <string name="order_sent_successfully_order_number_is">#آرڈر کامیابی سے بھیجا گیا. آرڈر نمبر </string>
+
+    <string name="new_order">نیا حکم</string>
+
+    <string name="details">تفصیلات دکھائیں</string>
+
+    <string name="equipment">سامان</string>
+
+    <string name="size_of_equipment">سائز</string>
+
+    <string name="number">نمبر</string>
+
+    <string name="days_numbers">دن کی تعداد</string>
+
+    <string name="ch_size">سائز کا انتخاب کریں</string>
+
+    <string name="container">کنٹینر</string>
+
+    <string name="provide_us_with_info">براہ کرم معلومات فراہم کرنے کے لۓ فراہم کریں</string>
+
+
+    -
+    <string name="truck_size">
+کنٹینر کا سائز
+<font color="red">*</font>
+
+</string>
+
+
+    -
+    <string name="container_type">
+کنٹینر کی قسم
+<font color="red">*</font>
+
+</string>
+
+    <string name="engineering_consultances">انجنیئرنگ کنسلٹنٹس</string>
+
+    <string name="provide_us_with_info2">براہ مہربانی ہمیں اس معلومات کے ساتھ فراہم کریں</string>
+
+
+    -
+    <string name="property_type">
+جائداد کی نوعیت
+<font color="red">*</font>
+
+</string>
+
+    <string name="area">رقبہ</string>
+
+
+    -
+    <string name="property_image">
+جائیداد کی تصویر
+<font color="red">*</font>
+
+</string>
+
+    <string name="details_of_the_reference">تفصیلات</string>
+
+    <string name="customs_clearance">کسٹم کلیئرنس</string>
+
+    <string name="image_delete">ایسی تصاویر جنہیں ضروری معلومات پر مشتمل نہیں ہوگی حذف ہو جائیں گی</string>
+
+
+    -
+    <string name="model_four">
+بینک کا ماڈل 4
+<font color="red">*</font>
+
+</string>
+
+
+    -
+    <string name="business_register">
+بزنس رجسٹر
+<font color="red">*</font>
+
+</string>
+
+
+    -
+    <string name="tax_card">
+ٹیکس کارڈ
+<font color="red">*</font>
+
+</string>
+
+
+    -
+    <string name="import_card">
+درآمد کارڈ
+<font color="red">*</font>
+
+</string>
+
+
+    -
+    <string name="customs_card">
+کسٹم کارڈ
+<font color="red">*</font>
+
+</string>
+
+    <string name="load_description">لوڈ کا تفصیل</string>
+
+    <string name="ch_con_type">کنٹینر کی قسم منتخب کریں</string>
+
+    <string name="sel_m4_img">ماڈل 4 تصویر منتخب کریں</string>
+
+    <string name="sel_com_img">تجارتی رجسٹر تصویر کا انتخاب کریں</string>
+
+    <string name="sel_tx_img">ٹیکس کارڈ کی تصویر منتخب کریں</string>
+
+    <string name="sel_imp_img">درآمد کارڈ منتخب کریں</string>
+
+    <string name="sel_cus_img">اپنی مرضی کے مطابق کارڈ منتخب کریں</string>
+
+    <string name="the_type_of_shipment_required_from_abroad">بیرون ملک سے ضروری سامان کی قسم</string>
+    <string name="type_of_load3">لوڈ کی قسم</string>
+    <string name="size_of_truck">ٹرک کا سائز</string>
+    <string name="number_of_truck2">ٹرک کی تعداد</string>
+    <string name="no_load_to_display">ظاہر کرنے کے لئے کوئی شپمنٹ کی قسم نہیں ہے</string>
+    <string name="no_sizes">ظاہر کرنے کے لئے کوئی سائز نہیں ہیں</string>
+    <string name="number_of_truck">ٹرک کی تعداد</string>
+    <string name="ch_trc_number">ٹرکوں کی تعداد منتخب کریں</string>
+
+    <string name="order_number">آرڈر نمبر</string>
+    <string name="order_state">آرڈر کی حیثیت</string>
+    <string name="add_rate">درجہ بندی شامل کریں</string>
+    <string name="just_now">اب</string>
+    <string name="a_minute_ago">ایک منٹ قبل</string>
+    <string name="min">منٹ</string>
+    <string name="an_hour_ago">1 گھنٹہ قبل</string>
+    <string name="hs">ایچ</string>
+    <string name="yesterday">کل</string>
+    <string name="day">دن</string>
+    <string name="wd">پانی کی فراہمی</string>
+    <string name="re">کرایہ کا سامان</string>
+    <string name="st">شپنگ اور نقل و حمل</string>
+    <string name="con">کنٹینرز</string>
+    <string name="cc">کسٹم کلیئرنس</string>
+    <string name="ec">انجنیئر کنسلٹنٹس</string>
+    <string name="ch_prop_type">جائداد کی نوعیت</string>
+    <string name="delivery_time">ڈلیوری وقت</string>
+    <string name="delivery_date">ترسیل کی تاریخ</string>
+    <string name="already_company">آپ پہلے ہی کمپنی کے طور پر رجسٹرڈ ہیں</string>
+    <string name="accept">قبول کریں</string>
+    <string name="refuse">انکار کرو</string>
+    <string name="order">Order</string>
+    <string name="water_delivery">آرڈر</string>
+    <string name="show_on_map">نقشے پر مقام دیکھیں</string>
+    <string name="cost">لاگت</string>
+    <string name="num_truck">ٹرک کی تعداد</string>
+    <string name="ship_trans">شپنگ اور نقل و حمل</string>
+    <string name="from">سے</string>
+    <string name="load_time">لوڈ وقت</string>
+    <string name="to">کرنے کے لئے</string>
+    <string name="truck">ٹرک</string>
+    <string name="ship_number">شپمنٹ نمبر</string>
+    <string name="arrival_time">آمد کے وقت</string>
+    <string name="desc">تفصیل</string>
+    <string name="weight">وزن</string>
+    <string name="value">قدر</string>
+    <string name="rental_equip">رینٹل کا سامان</string>
+    <string name="amount">رقم</string>
+    <string name="used_time">استعمال شدہ وقت</string>
+    <string name="cont_order">کنٹینرز کا حکم</string>
+    <string name="type">ٹائپ کریں</string>
+    <string name="eng_cons_order">انجینئرنگ مشاورت کا حکم</string>
+    <string name="model_4_image">ماڈل 4 تصویر</string>
+    <string name="tax_card_img">ٹیکس کارڈ کی تصویر</string>
+    <string name="import_image">درآمد کارڈ کی تصویر</string>
+    <string name="cus_card_img">کسٹم کارڈ کی تصویر</string>
+    <string name="ship_type">شپمنٹ کی قسم</string>
+    <string name="cust_clear_order">کسٹم کلیئرنس آرڈر</string>
+    <string name="prop_type">پراپرٹی کی قسم</string>
+    <string name="prop_image">پراپرٹی کی تصویر</string>
+    <string name="sar">SAR</string>
+    <string name="no_orders_to_display">ظاہر کرنے کے لئے کوئی حکم نہیں</string>
+    <string name="order_accepted">Order accepted</string>
+    <string name="done">done</string>
+    <string name="we_pleaser">We are pleased to serve you</string>
+    <string name="moving_furniture">نقل عفش</string>
+    <string name="containers">حاويات</string>
+
+</resources>

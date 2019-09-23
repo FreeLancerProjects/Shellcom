@@ -1,0 +1,245 @@
+<resources>
+    <string name="app_name">Sheelcom</string>
+
+    <string name="map_api_key">AIzaSyCbc2Y5AIwZ8uUeHRUXiozGN3CnpjKT0oI</string>
+    <string name="login">Log in</string>
+    <string name="skip">skip</string>
+    <string name="user_name">user_name</string>
+    <string name="user_password">password</string>
+    <string name="user_email">Email</string>
+    <string name="user_phone">Phone number</string>
+    <string name="register">register</string>
+    <string name="si_su">Please Sign in or sign up .</string>
+    <string name="home">Home</string>
+    <string name="orders">My Order</string>
+    <string name="accountِ">Profile</string>
+    <string name="more">More</string>
+    <string name="bank_account">Bank Accounts</string>
+    <string name="Condition">Terms and Conditions</string>
+    <string name="about">About App</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="language_setting">Language Settings</string>
+    <string name="Log_out">Logout</string>
+
+    <string name="water_arrive">Water Delivery</string>
+    <string name="choose_the_type_of_load">Choose the type of load <font color='red'>*</font></string>
+    <string name="number_of_trucks">Number of trucks <font color='red'>*</font></string>
+    <string name="what_kind_of_truck_do_you_need">What kind of truck do you need? <font color='red'>*</font></string>
+
+    <string name="fill_in_the_charger_information_below">Fill in the charger information below</string>
+    <string name="choose">Choose</string>
+    <string name="company_name">Company Name</string>
+    <string name="responsible_person">Responsible Name</string>
+    <string name="the_shipment_number_of_the_sender">Shipment number</string>
+    <string name="country_load">Country Load</string>
+    <string name="city_load">City Load</string>
+    <string name="select_your_location_on_the_map">Select your location on the map</string>
+    <string name="history_of_load">History Of Load</string>
+    <string name="time_of_load">Load time</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="please_provide_us_with_the_delivery_information">Please provide us with the delivery information</string>
+    <string name="country_arrive">country Arrive</string>
+    <string name="city_Arrive">city_Arrive</string>
+    <string name="time_of_arrive">Time Of Arrive</string>
+    <string name="shipping_and_transportation">Shipment and transfer</string>
+    <string name="rental_equipment">Rental equipment</string>
+    <string name="other_services">Other Services</string>
+
+    <string name="user_Full_name">Name</string>
+    <string name="edit">Edit</string>
+
+    <string name="current">Current</string>
+    <string name="previou">Previous</string>
+
+    <string name="call">Send</string>
+    <string name="Message">Subject</string>
+    <string name="name">name</string>
+    <string name="wait">wait ...</string>
+    <string name="notifications">Notification</string>
+    <string name="ok">OK</string>
+    <string name="new_user">Sign up.</string>
+
+    <string name="description_of_the_load">Description of the load</string>
+    <string name="value_of_the_load">Value of the load</string>
+    <string name="weight_of_load">Weight of load (max 35 Ton)</string>
+    <string name="image_of_load">Please upload a picture of the load</string>
+    <string name="image_contain_info">Images containing contact information will be deleted</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="please_let_us_know_your_preferred_payment_method">Please let us know your preferred payment method</string>
+    <string name="repayment_with_an_emdad_office_or_a_delegate_return">Repayment with an Emdad office or a delegate (return)</string>
+    <string name="payment_on_delivery">Payment on delivery</string>
+    <string name="credit">credit</string>
+    <string name="send_order">Send Order</string>
+    <string name="specify_the_delivery_date">Specify the delivery date</string>
+    <string name="download_site">Select delivery location</string>
+    <string name="date_of_load">Load date</string>
+    <string name="time_date_download">time_date_download</string>
+    <string name="size_of_wit">Size</string>
+    <string name="suc">Success !</string>
+
+    <string name="choose_size">Choose Size</string>
+    <string name="country_prompt">Choose a country</string>
+
+
+    <string name="title">Title</string>
+    <string name="information">Information</string>
+    <string name="time">Time</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="cancel">Cancel</string>
+    <string name="field_req">Field is required</string>
+    <string name="inv_email">Invalid email address</string>
+    <string name="sign_up2">Sign Up</string>
+    <string name="code">code</string>
+    <string name="email_exists">Email exists</string>
+    <string name="something">Error ! Something went haywire</string>
+    <string name="inc_em_pas">Incorrect email or password</string>
+    <string name="there_are_no_ads_to_display">There are no ads to display</string>
+    <string name="i_m_a_company">I\'m a Company</string>
+    <string name="city">City</string>
+    <string name="address">Address</string>
+    <string name="commercial_image">Commercial image</string>
+    <string name="send">Send</string>
+    <string name="select_location_on_map">Select Location on Map</string>
+    <string name="perm_image_denied">Permission denied</string>
+    <string name="upload_image">Upload image</string>
+    <string name="select_a_picture_to_upload">Select a picture to upload</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="search_for_address">Search for address</string>
+    <string name="ch_comp_image">Choose Commercial image</string>
+    <string name="failed">Failed ! try again later</string>
+    <string name="services">Services</string>
+    <string name="general_settings">General Settings</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="rate_this_app">Rate this App</string>
+    <string name="help">Help</string>
+    <string name="about_tour">About Tour</string>
+    <string name="allow_to_receive_orders">Allow to receive orders</string>
+    <string name="select_language">Select Language</string>
+    <string name="select">Select</string>
+    <string name="ch_city">Choose city</string>
+    <string name="ch_service">choose service</string>
+    <string name="ch_cont_size">Choose container size</string>
+    <string name="req_sent_admin_reply">Your request is sent successfully ! . Admin will review your request and reply.</string>
+    <string name="req_pend">Your request is pending</string>
+    <string name="not">Notifications</string>
+    <string name="no_notifications_to_display">No notifications to display</string>
+    <string name="water_delivery_order">Water Delivery Orders</string>
+    <string name="shipping_and_transportation_orders">Shipping and Transportation Orders</string>
+    <string name="equipment_rental_orders">Equipment Rental Orders</string>
+    <string name="back">Back</string>
+    <string name="shipment_and_transportation">Shipment and transportation</string>
+    <string name="type_of_load">Type of load</string>
+    <string name="delivery_information">Delivery information</string>
+    <string name="ch_truck">Choose truck</string>
+    <string name="ch_img">Choose image</string>
+    <string name="ch_pay_mthd">Choose payment method</string>
+    <string name="order_sent_successfull">Order sent successfully</string>
+    <string name="order_sent_successfully_order_number_is">Order sent successfully . order number is #</string>
+    <string name="new_order">New order</string>
+    <string name="details">Show Details</string>
+    <string name="equipment">Equipment</string>
+    <string name="size_of_equipment">Size</string>
+    <string name="number">Number</string>
+    <string name="days_numbers">Days numbers</string>
+    <string name="ch_size">Choose size</string>
+
+
+
+    <string name="container">container</string>
+    <string name="provide_us_with_info">please provide us with deliver information</string>
+    <string name="truck_size">Container size<font color='red'>*</font></string>
+    <string name="container_type">Container Type<font color='red'>*</font></string>
+    <string name="engineering_consultances">Engineering consultances</string>
+    <string name="provide_us_with_info2">please provide us with this information</string>
+    <string name="property_type">Property Type<font color='red'>*</font></string>
+    <string name="area">Area</string>
+    <string name="property_image">property Image<font color='red'>*</font></string>
+    <string name="details_of_the_reference">Details</string>
+    <string name="customs_clearance">Customs Clearance</string>
+    <string name="image_delete">Images that do not contain the required information will be deleted</string>
+    <string name="model_four">Model 4 of the bank<font color='red'>*</font></string>
+    <string name="business_register">Business Register<font color='red'>*</font></string>
+    <string name="tax_card">Tax card<font color='red'>*</font></string>
+    <string name="import_card">Import card<font color='red'>*</font></string>
+    <string name="customs_card">Customs card<font color='red'>*</font></string>
+    <string name="load_description">Description of load</string>
+    <string name="ch_con_type">Choose container type</string>
+    <string name="sel_m4_img">Select  model 4 image</string>
+    <string name="sel_com_img">Select commercial register image</string>
+    <string name="sel_tx_img">Select Tax card image</string>
+    <string name="sel_imp_img">Select Import card</string>
+    <string name="sel_cus_img">Select Customs card</string>
+    <string name="the_type_of_shipment_required_from_abroad">The type of shipment required from abroad</string>
+    <string name="size_of_truck">Size of truck</string>
+    <string name="type_of_load3">Type of shipment</string>
+    <string name="number_of_truck2">Number of truck</string>
+    <string name="no_load_to_display">There is no shipment type to display</string>
+    <string name="no_sizes">There are no sizes to display</string>
+    <string name="number_of_truck">Number of Truck</string>
+    <string name="ch_trc_number">Choose number of truck</string>
+    <string name="order_number">Order number</string>
+    <string name="order_state">Order state</string>
+    <string name="add_rate">Add rate</string>
+
+    <string name="just_now">just now</string>
+    <string name="a_minute_ago">a minute ago</string>
+    <string name="min">MIN</string>
+    <string name="an_hour_ago">an hour ago</string>
+    <string name="hs">Hs</string>
+    <string name="yesterday">yesterday</string>
+    <string name="day">D</string>
+    <string name="wd">Water Delivery</string>
+    <string name="re">Rental Equipment</string>
+    <string name="st">Shipping and transportation</string>
+    <string name="con">Containers</string>
+    <string name="cc">Customs Clearance</string>
+    <string name="ec">Engineering Consultances</string>
+    <string name="ch_prop_type">Choose property type</string>
+    <string name="delivery_time">Delivery time</string>
+    <string name="delivery_date">Delivery date</string>
+    <string name="already_company">You are already registered as a company</string>
+    <string name="accept">Accept</string>
+    <string name="refuse">Refuse</string>
+    <string name="order">Order</string>
+    <string name="water_delivery">Water delivery</string>
+    <string name="show_on_map">View location on map</string>
+    <string name="cost">Cost</string>
+    <string name="num_truck">Numbers of trucks</string>
+    <string name="ship_trans">Shipping and transportation</string>
+    <string name="from">From</string>
+    <string name="load_time">Load time</string>
+    <string name="to">To</string>
+    <string name="truck">Truck</string>
+    <string name="ship_number">Shipment number</string>
+    <string name="arrival_time">Arrival time</string>
+    <string name="desc">Description</string>
+    <string name="weight">Weight</string>
+    <string name="value">Value</string>
+    <string name="rental_equip">Rental equipment</string>
+    <string name="amount">Amount</string>
+    <string name="used_time">Used time</string>
+    <string name="cont_order">Containers order</string>
+    <string name="type">Type</string>
+    <string name="eng_cons_order">Engineering consultances order</string>
+    <string name="model_4_image">Model 4 image</string>
+    <string name="tax_card_img">Tax card image</string>
+    <string name="import_image">Import card image</string>
+    <string name="cus_card_img">Customs card image</string>
+    <string name="ship_type">Shipment type</string>
+    <string name="cust_clear_order">Customs clearance order</string>
+    <string name="prop_type">Property type</string>
+    <string name="prop_image">Property image</string>
+    <string name="sar">SAR</string>
+    <string name="no_orders_to_display">No orders to display</string>
+    <string name="order_accepted">Order accepted</string>
+    <string name="done">done</string>
+    <string name="we_pleaser">We are pleased to serve you</string>
+    <string name="moving_furniture">Moving furniture</string>
+    <string name="containers">Containers</string>
+</resources>
