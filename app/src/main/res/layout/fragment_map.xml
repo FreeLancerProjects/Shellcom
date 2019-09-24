@@ -168,7 +168,7 @@
                 android:src="@drawable/ic_send"
                 android:tint="@color/white"
                 app:elevation="0dp"
-                app:backgroundTint="@color/yellow1"
+                app:backgroundTint="@color/colorPrimary"
 
                 />
         </androidx.constraintlayout.widget.ConstraintLayout>

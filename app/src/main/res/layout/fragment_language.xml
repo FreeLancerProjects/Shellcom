@@ -99,7 +99,7 @@
             android:src="@drawable/ic_next_arrow"
             android:tint="@color/white"
             app:pressedTranslationZ="5dp"
-            app:backgroundTint="@color/yellow1"
+            app:backgroundTint="@color/colorPrimary"
             />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

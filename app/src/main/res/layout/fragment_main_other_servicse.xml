@@ -28,7 +28,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/other_services"
-                android:textColor="@color/yellow1"
+                android:textColor="@color/colorPrimary"
 
                 />
 

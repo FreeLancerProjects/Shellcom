@@ -11,7 +11,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:textSize="16sp"
-        android:textColor="@color/yellow1"
+        android:textColor="@color/colorPrimary"
         />
 
     <ProgressBar

@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/container"
-            android:textColor="@color/yellow1"
+            android:textColor="@color/colorPrimary"
             android:layout_gravity="center"
 
             />
