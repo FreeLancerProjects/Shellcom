@@ -31,7 +31,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:text="@string/i_m_a_company"
-            android:textColor="@color/yellow1"
+            android:textColor="@color/colorPrimary"
             android:textSize="16sp" />
 
         <ImageView
@@ -41,7 +41,7 @@
             android:layout_gravity="start"
             android:padding="12dp"
             android:src="@drawable/ic_back_arrow"
-            android:tint="@color/yellow1"
+            android:tint="@color/colorPrimary"
 
             />
     </androidx.appcompat.widget.Toolbar>

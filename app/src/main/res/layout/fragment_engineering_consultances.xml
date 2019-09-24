@@ -31,7 +31,7 @@
             android:layout_weight="1"
             android:layout_gravity="center"
             android:text="@string/engineering_consultances"
-            android:textColor="@color/yellow1"
+            android:textColor="@color/colorPrimary"
 
             />
 

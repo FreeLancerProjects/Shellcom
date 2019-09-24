@@ -446,7 +446,7 @@ android:tint="@color/colorPrimary"
                         app:errorEnabled="false"
                         app:hintEnabled="false"
                         app:passwordToggleEnabled="true"
-                        app:passwordToggleTint="@color/yellow1"
+                        app:passwordToggleTint="@color/colorPrimary"
 
 
                         >
@@ -537,7 +537,7 @@ android:tint="@color/colorPrimary"
                         android:layout_marginStart="2dp"
                         android:layout_marginTop="2dp"
                         android:layout_marginBottom="2dp"
-                        android:background="@color/yellow1"
+                        android:background="@color/colorPrimary"
                         tools:ignore="RtlCompat"
 
                         />

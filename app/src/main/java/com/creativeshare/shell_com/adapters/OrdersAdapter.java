@@ -146,7 +146,7 @@ public class OrdersAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
             if (fragment instanceof Fragment_Current_Order)
             {
                 image_state.setImageResource(R.drawable.ic_clock);
-                image_state.setColorFilter(ContextCompat.getColor(context,R.color.yellow1));
+                image_state.setColorFilter(ContextCompat.getColor(context,R.color.colorPrimary));
             }else
                 {
                     image_state.setImageResource(R.drawable.ic_done);

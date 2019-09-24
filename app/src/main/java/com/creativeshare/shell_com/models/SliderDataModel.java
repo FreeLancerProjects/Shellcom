@@ -14,14 +14,14 @@ public class SliderDataModel implements Serializable {
     public class SliderModel implements Serializable
     {
         private int id;
-        private String url;
+        private String image;
 
         public int getId() {
             return id;
         }
 
-        public String getUrl() {
-            return url;
+        public String getImage() {
+            return image;
         }
     }
 }
