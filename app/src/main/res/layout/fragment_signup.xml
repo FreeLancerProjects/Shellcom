@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/bg"
+    android:background="@color/white"
     android:clickable="true"
     android:focusable="true"
     >
@@ -25,7 +25,7 @@
             android:layout_gravity="start"
             android:padding="15dp"
             android:src="@drawable/ic_back_arrow"
-            android:tint="@color/yellow1"
+            android:tint="@color/colorPrimary"
 
 
             />
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/new_user"
-            android:textColor="@color/yellow1"
+            android:textColor="@color/colorPrimary"
             android:textSize="18sp"
             android:textStyle="bold"
 
@@ -101,7 +101,7 @@
                         android:padding="8dp"
                         android:src="@drawable/ic_user"
                         android:layout_gravity="center_vertical"
-
+android:tint="@color/colorPrimary"
                         />
 
                     <EditText
@@ -145,6 +145,7 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
 
+                        android:tint="@color/colorPrimary"
 
                         />
 
@@ -247,6 +248,7 @@
                         android:padding="8dp"
                         android:src="@drawable/ic_mail"
                         android:layout_gravity="center_vertical"
+                        android:tint="@color/colorPrimary"
 
                         />
 
@@ -286,6 +288,7 @@
                         android:padding="8dp"
                         android:src="@drawable/ic_lock"
                         android:layout_gravity="center_vertical"
+                        android:tint="@color/colorPrimary"
 
                         />
 
@@ -295,7 +298,7 @@
                         app:errorEnabled="false"
                         app:hintEnabled="false"
                         app:passwordToggleEnabled="true"
-                        app:passwordToggleTint="@color/yellow1"
+                        app:passwordToggleTint="@color/colorPrimary"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
 

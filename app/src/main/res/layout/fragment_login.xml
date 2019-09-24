@@ -5,7 +5,7 @@
 
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/bg"
+    android:background="@color/white"
     >
 
     <ScrollView
@@ -57,7 +57,7 @@
                         android:padding="8dp"
                         android:src="@drawable/ic_mail"
                         android:layout_gravity="center_vertical"
-
+android:tint="@color/colorPrimary"
                         />
 
                     <EditText
@@ -96,7 +96,7 @@
                         android:padding="8dp"
                         android:src="@drawable/ic_lock"
                         android:layout_gravity="center_vertical"
-
+android:tint="@color/colorPrimary"
                         />
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -105,7 +105,7 @@
                         app:errorEnabled="false"
                         app:hintEnabled="false"
                         app:passwordToggleEnabled="true"
-                        app:passwordToggleTint="@color/yellow1"
+                        app:passwordToggleTint="@color/colorPrimary"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
                         android:layout_gravity="center_vertical"
