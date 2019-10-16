@@ -21,7 +21,7 @@
     <string name="Log_out">تسجيل الخروج</string>
     <string name="accountِ">حسابى</string>
     <string name="water_arrive">توصيل المياة</string>
-    <string name="choose_the_type_of_load">إختر نوع الحمولة <font color='red'>*</font></string>
+    <string name="choose_the_type_of_load">إختر نوع العفش <font color='red'>*</font></string>
     <string name="number_of_trucks">عدد الشاحنات <font color='red'>*</font></string>
     <string name="what_kind_of_truck_do_you_need">ما نوع الشاحنة التى تريدها ؟ <font color='red'>*</font></string>
     <string name="fill_in_the_charger_information_below">قم بتعبئة معلومات الشاحن ادناه</string>
@@ -54,7 +54,7 @@
     <string name="notifications">اشعارات</string>
     <string name="ok">حسنا !</string>
     <string name="new_user">إنشاء حساب جديد.</string>
-    <string name="description_of_the_load">وصف الحمولة</string>
+    <string name="description_of_the_load">وصف العفش</string>
     <string name="value_of_the_load">قيمة الحمولة</string>
     <string name="weight_of_load">وزن الحمولة (بحد أقصى 35 طن)</string>
     <string name="image_of_load">نرجو تحميل صورة للحمولة</string>
@@ -122,7 +122,7 @@
     <string name="equipment_rental_orders">طلبات تأجير معدات</string>
     <string name="back">رجوع</string>
     <string name="shipment_and_transportation">شحن ونقل</string>
-    <string name="type_of_load">نوع الحمولة</string>
+    <string name="type_of_load">نوع العفش</string>
     <string name="delivery_information">نرجو تزويدنا بمعلومات التوصيل</string>
     <string name="ch_truck">إختر الشاحنة</string>
     <string name="ch_img">إختر صورة</string>

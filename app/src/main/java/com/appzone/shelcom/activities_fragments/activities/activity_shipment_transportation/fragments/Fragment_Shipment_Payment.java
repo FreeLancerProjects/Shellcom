@@ -18,8 +18,10 @@ import com.appzone.shelcom.activities_fragments.activities.activity_shipment_tra
 
 public class Fragment_Shipment_Payment extends Fragment {
 
-    private LinearLayout ll1,ll2,ll3;
-    private RadioButton rb1,rb2,rb3;
+    private LinearLayout ll1,ll2;
+    //private LinearLayout ll3;
+    private RadioButton rb1,rb2;
+    //private RadioButton      rb3;
     private int payment_method=0;
     private ShipmentActivity activity;
     private Button btn_send;
@@ -42,11 +44,11 @@ public class Fragment_Shipment_Payment extends Fragment {
         activity = (ShipmentActivity) getActivity();
         ll1 = view.findViewById(R.id.ll1);
         ll2 = view.findViewById(R.id.ll2);
-        ll3 = view.findViewById(R.id.ll3);
+        //ll3 = view.findViewById(R.id.ll3);
 
         rb1 = view.findViewById(R.id.rb1);
         rb2 = view.findViewById(R.id.rb2);
-        rb3 = view.findViewById(R.id.rb3);
+        //rb3 = view.findViewById(R.id.rb3);
 
         btn_send = view.findViewById(R.id.btn_send);
 
@@ -56,7 +58,7 @@ public class Fragment_Shipment_Payment extends Fragment {
             public void onClick(View v) {
                 rb1.setChecked(true);
                 rb2.setChecked(false);
-                rb3.setChecked(false);
+              //  rb3.setChecked(false);
                 payment_method = 1;
             }
         });
@@ -66,12 +68,12 @@ public class Fragment_Shipment_Payment extends Fragment {
             public void onClick(View v) {
                 rb1.setChecked(false);
                 rb2.setChecked(true);
-                rb3.setChecked(false);
+            //    rb3.setChecked(false);
                 payment_method = 2;
             }
         });
 
-        ll3.setOnClickListener(new View.OnClickListener() {
+     /*   ll3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 rb1.setChecked(false);
@@ -80,13 +82,13 @@ public class Fragment_Shipment_Payment extends Fragment {
                 payment_method = 3;
             }
         });
-
+*/
         rb1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 rb1.setChecked(true);
                 rb2.setChecked(false);
-                rb3.setChecked(false);
+              //  rb3.setChecked(false);
                 payment_method = 1;
             }
         });
@@ -96,12 +98,12 @@ public class Fragment_Shipment_Payment extends Fragment {
             public void onClick(View v) {
                 rb1.setChecked(false);
                 rb2.setChecked(true);
-                rb3.setChecked(false);
+             //   rb3.setChecked(false);
                 payment_method = 2;
             }
         });
 
-        rb3.setOnClickListener(new View.OnClickListener() {
+     /*   rb3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 rb1.setChecked(false);
@@ -109,7 +111,7 @@ public class Fragment_Shipment_Payment extends Fragment {
                 rb3.setChecked(true);
                 payment_method = 3;
             }
-        });
+        });*/
 
         btn_send.setOnClickListener(new View.OnClickListener() {
             @Override

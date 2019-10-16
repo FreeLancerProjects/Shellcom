@@ -98,7 +98,7 @@ public class Fragment_Order_Details_Shipping extends Fragment {
         image_map_arrow1 = view.findViewById(R.id.image_map_arrow1);
         image_map_arrow2 = view.findViewById(R.id.image_map_arrow2);
 
-        if (current_language.equals("ar") || current_language.equals("ur")) {
+        if (current_language.equals("ar") ) {
             image_back.setRotation(180.0f);
             image_map_arrow1.setRotation(180.0f);
             image_map_arrow2.setRotation(180.0f);

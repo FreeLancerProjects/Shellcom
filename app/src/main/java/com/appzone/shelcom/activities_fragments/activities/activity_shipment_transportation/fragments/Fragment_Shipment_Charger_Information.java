@@ -88,7 +88,8 @@ public class Fragment_Shipment_Charger_Information extends Fragment implements O
 
     private TextView tv_code,tv_time,tv_date;
     private ImageView image_phone_code,image_search;
-    private EditText edt_phone,edt_company_name,edt_responsible_name,edt_email,edt_shipment_number,edt_address;
+    private EditText edt_phone,edt_responsible_name,edt_address;
+  //  private EditText  edt_company_name,edt_email,edt_shipment_number;
     private Spinner spinner_city;
     private List<CityModel> cityModelList;
     private Spinner_Adapter city_adapter;
@@ -139,7 +140,7 @@ public class Fragment_Shipment_Charger_Information extends Fragment implements O
         current_language = Paper.book().read("lang", Locale.getDefault().getLanguage());
         image_phone_code = view.findViewById(R.id.image_phone_code);
 
-        if (current_language.equals("ar")||current_language.equals("ur"))
+        if (current_language.equals("ar"))
         {
             image_phone_code.setRotation(180.0f);
         }
@@ -151,10 +152,10 @@ public class Fragment_Shipment_Charger_Information extends Fragment implements O
         tv_time = view.findViewById(R.id.tv_time);
         tv_date = view.findViewById(R.id.tv_date);
         edt_phone = view.findViewById(R.id.edt_phone);
-        edt_company_name = view.findViewById(R.id.edt_company_name);
+       // edt_company_name = view.findViewById(R.id.edt_company_name);
         edt_responsible_name = view.findViewById(R.id.edt_responsible_name);
-        edt_email = view.findViewById(R.id.edt_email);
-        edt_shipment_number = view.findViewById(R.id.edt_shipment_number);
+        //edt_email = view.findViewById(R.id.edt_email);
+      //  edt_shipment_number = view.findViewById(R.id.edt_shipment_number);
         ll_time = view.findViewById(R.id.ll_time);
         ll_date = view.findViewById(R.id.ll_date);
 
@@ -252,18 +253,18 @@ public class Fragment_Shipment_Charger_Information extends Fragment implements O
     public boolean isDataOk()
     {
         String m_phone = edt_phone.getText().toString().trim();
-        String m_company_name = edt_company_name.getText().toString();
+       // String m_company_name = edt_company_name.getText().toString();
         String m_responsible_name = edt_responsible_name.getText().toString();
-        String m_email = edt_email.getText().toString();
-        String m_shipment_number = edt_shipment_number.getText().toString();
+       // String m_email = edt_email.getText().toString();
+        //String m_shipment_number = edt_shipment_number.getText().toString();
 
         if (!TextUtils.isEmpty(m_phone)&&
                 !TextUtils.isEmpty(code)&&
-                !TextUtils.isEmpty(m_company_name)&&
+                //!TextUtils.isEmpty(m_company_name)&&
                 !TextUtils.isEmpty(m_responsible_name)&&
-                !TextUtils.isEmpty(m_email)&&
-                Patterns.EMAIL_ADDRESS.matcher(m_email).matches()&&
-                !TextUtils.isEmpty(m_shipment_number)&&
+                //!TextUtils.isEmpty(m_email)&&
+              //  Patterns.EMAIL_ADDRESS.matcher(m_email).matches()&&
+               // !TextUtils.isEmpty(m_shipment_number)&&
                 !TextUtils.isEmpty(address)&&
                 !TextUtils.isEmpty(city_id)&&
                 lat!=0&&
@@ -274,14 +275,14 @@ public class Fragment_Shipment_Charger_Information extends Fragment implements O
         {
             tv_code.setError(null);
             edt_phone.setError(null);
-            edt_company_name.setError(null);
+            //edt_company_name.setError(null);
             edt_responsible_name.setError(null);
-            edt_shipment_number.setError(null);
+            //edt_shipment_number.setError(null);
             tv_time.setError(null);
             tv_date.setError(null);
             edt_address.setError(null);
             Common.CloseKeyBoard(activity,edt_phone);
-            activity.SaveFromShipmentData(code,m_phone,m_company_name,m_email,m_responsible_name,m_shipment_number,address,city_id,lat,lng,order_time_calender.getTimeInMillis());
+            activity.SaveFromShipmentData(code,m_phone,m_responsible_name,address,city_id,lat,lng,order_time_calender.getTimeInMillis());
             return true;
         }else
             {
@@ -302,7 +303,7 @@ public class Fragment_Shipment_Charger_Information extends Fragment implements O
 
                     }
 
-                if (TextUtils.isEmpty(m_company_name))
+            /*    if (TextUtils.isEmpty(m_company_name))
                 {
                     edt_company_name.setError(getString(R.string.field_req));
                 }else
@@ -310,7 +311,7 @@ public class Fragment_Shipment_Charger_Information extends Fragment implements O
                     edt_company_name.setError(null);
 
                 }
-
+*/
                 if (TextUtils.isEmpty(m_responsible_name))
                 {
                     edt_responsible_name.setError(getString(R.string.field_req));
@@ -320,7 +321,7 @@ public class Fragment_Shipment_Charger_Information extends Fragment implements O
 
                 }
 
-                if (TextUtils.isEmpty(m_email))
+              /*  if (TextUtils.isEmpty(m_email))
                 {
                     edt_email.setError(getString(R.string.field_req));
                 }else if (!Patterns.EMAIL_ADDRESS.matcher(m_email).matches()){
@@ -339,7 +340,7 @@ public class Fragment_Shipment_Charger_Information extends Fragment implements O
                 {
                     edt_shipment_number.setError(null);
 
-                }
+                }*/
 
                 if (TextUtils.isEmpty(address))
                 {

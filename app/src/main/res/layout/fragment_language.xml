@@ -55,21 +55,21 @@
                 android:layout_height="1px"
                 android:background="@color/gray3"/>
 
-            <RadioButton
-                android:id="@+id/rb_ur"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/gray4"
-                android:textSize="17sp"
-                android:padding="8dp"
-                android:text="Urdu"
-                android:button="@drawable/rb_bg"
-                />
+       <!--     <RadioButton
+            android:id="@+id/rb_ur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray4"
+            android:textSize="17sp"
+            android:padding="8dp"
+            android:text="Urdu"
+            android:button="@drawable/rb_bg"
+            />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
                 android:background="@color/gray3"/>
-
+-->
             <RadioButton
                 android:id="@+id/rb_ar"
                 android:layout_width="wrap_content"

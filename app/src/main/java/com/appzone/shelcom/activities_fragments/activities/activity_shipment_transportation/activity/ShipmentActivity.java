@@ -90,7 +90,7 @@ public class ShipmentActivity extends AppCompatActivity {
         seekBar = findViewById(R.id.seekBar);
 
 
-        if (current_language.equals("ar")||current_language.equals("ur"))
+        if (current_language.equals("ar"))
         {
             arrow.setRotation(180.0f);
             arrow_next.setRotation(180.0f);
@@ -236,13 +236,13 @@ public class ShipmentActivity extends AppCompatActivity {
 
     }
 
-    public void SaveFromShipmentData(String code, String m_phone, String m_company_name,String email, String m_responsible_name, String m_shipment_number, String address,String city_id, double lat, double lng, long date) {
+    public void SaveFromShipmentData(String code, String m_phone, String m_responsible_name, String address,String city_id, double lat, double lng, long date) {
         shipmentUploadModel.setFrom_company_phone_code(code.replace("+","00"));
         shipmentUploadModel.setFrom_company_phone(m_phone);
-        shipmentUploadModel.setFrom_company_name(m_company_name);
-        shipmentUploadModel.setFrom_company_email(email);
+       // shipmentUploadModel.setFrom_company_name(m_company_name);
+       // shipmentUploadModel.setFrom_company_email(email);
         shipmentUploadModel.setFrom_responsible_name(m_responsible_name);
-        shipmentUploadModel.setShipment_number(m_shipment_number);
+       // shipmentUploadModel.setShipment_number(m_shipment_number);
         shipmentUploadModel.setFrom_address(address);
         shipmentUploadModel.setFrom_city_id(city_id);
         shipmentUploadModel.setFrom_lat(lat);
@@ -251,12 +251,12 @@ public class ShipmentActivity extends AppCompatActivity {
 
     }
 
-    public void SaveFromShipmentDeliveryData(String code, String m_phone, String m_company_name,String email, String m_responsible_name, String address, String city_id, double lat, double lng, long date) {
+    public void SaveFromShipmentDeliveryData(String code, String m_phone, String m_responsible_name, String address, String city_id, double lat, double lng, long date) {
 
         shipmentUploadModel.setTo_company_phone_code(code.replace("+","00"));
         shipmentUploadModel.setTo_company_phone(m_phone);
-        shipmentUploadModel.setTo_company_name(m_company_name);
-        shipmentUploadModel.setTo_company_email(email);
+        //shipmentUploadModel.setTo_company_name(m_company_name);
+        //shipmentUploadModel.setTo_company_email(email);
         shipmentUploadModel.setTo_responsible_name(m_responsible_name);
         shipmentUploadModel.setTo_address(address);
         shipmentUploadModel.setTo_city_id(city_id);
@@ -265,11 +265,11 @@ public class ShipmentActivity extends AppCompatActivity {
         shipmentUploadModel.setTo_date(date);
     }
 
-    public void saveLoadDescriptionData(String m_description, String m_value, String m_weight, Uri imgUri1, Uri imgUri2) {
+    public void saveLoadDescriptionData(String m_description, Uri imgUri1, Uri imgUri2) {
 
         shipmentUploadModel.setLoad_description(m_description);
-        shipmentUploadModel.setLoad_value(m_value);
-        shipmentUploadModel.setLoad_weight(m_weight);
+        //shipmentUploadModel.setLoad_value(m_value);
+        //shipmentUploadModel.setLoad_weight(m_weight);
         shipmentUploadModel.setUri_1(String.valueOf(imgUri1));
         shipmentUploadModel.setUri_2(String.valueOf(imgUri2));
 
@@ -307,21 +307,21 @@ public class ShipmentActivity extends AppCompatActivity {
 
             RequestBody phone_code_from_part = Common.getRequestBodyText(shipmentUploadModel.getFrom_company_phone_code());
             RequestBody phone_from_part = Common.getRequestBodyText(shipmentUploadModel.getFrom_company_phone());
-            RequestBody company_name_from_part = Common.getRequestBodyText(shipmentUploadModel.getFrom_company_name());
-            RequestBody company_email_from_part = Common.getRequestBodyText(shipmentUploadModel.getFrom_company_email());
+           // RequestBody company_name_from_part = Common.getRequestBodyText(shipmentUploadModel.getFrom_company_name());
+            //RequestBody company_email_from_part = Common.getRequestBodyText(shipmentUploadModel.getFrom_company_email());
             RequestBody responsible_name_from_part = Common.getRequestBodyText(shipmentUploadModel.getFrom_responsible_name());
             RequestBody city_id_from_part = Common.getRequestBodyText(shipmentUploadModel.getFrom_city_id());
             RequestBody address_from_part = Common.getRequestBodyText(shipmentUploadModel.getFrom_address());
             RequestBody lat_from_part = Common.getRequestBodyText(String.valueOf(shipmentUploadModel.getFrom_lat()));
             RequestBody lng_from_part = Common.getRequestBodyText(String.valueOf(shipmentUploadModel.getFrom_lng()));
             RequestBody date_from_part = Common.getRequestBodyText(String.valueOf((shipmentUploadModel.getFrom_date()/1000)));
-            RequestBody shipment_number_part = Common.getRequestBodyText(shipmentUploadModel.getShipment_number());
+         //   RequestBody shipment_number_part = Common.getRequestBodyText(shipmentUploadModel.getShipment_number());
 
 
             RequestBody phone_code_to_part = Common.getRequestBodyText(shipmentUploadModel.getTo_company_phone_code());
             RequestBody phone_to_part = Common.getRequestBodyText(shipmentUploadModel.getTo_company_phone());
-            RequestBody company_name_to_part = Common.getRequestBodyText(shipmentUploadModel.getTo_company_name());
-            RequestBody company_email_to_part = Common.getRequestBodyText(shipmentUploadModel.getTo_company_email());
+           // RequestBody company_name_to_part = Common.getRequestBodyText(shipmentUploadModel.getTo_company_name());
+            //RequestBody company_email_to_part = Common.getRequestBodyText(shipmentUploadModel.getTo_company_email());
             RequestBody responsible_name_to_part = Common.getRequestBodyText(shipmentUploadModel.getTo_responsible_name());
             RequestBody city_id_to_part = Common.getRequestBodyText(shipmentUploadModel.getTo_city_id());
             RequestBody address_to_part = Common.getRequestBodyText(shipmentUploadModel.getTo_address());
@@ -329,8 +329,8 @@ public class ShipmentActivity extends AppCompatActivity {
             RequestBody lng_to_part = Common.getRequestBodyText(String.valueOf(shipmentUploadModel.getTo_lng()));
             RequestBody date_to_part = Common.getRequestBodyText(String.valueOf((shipmentUploadModel.getTo_date()/1000)));
 
-            RequestBody value_to_part = Common.getRequestBodyText(shipmentUploadModel.getLoad_value());
-            RequestBody weight_to_part = Common.getRequestBodyText(shipmentUploadModel.getLoad_weight());
+           // RequestBody value_to_part = Common.getRequestBodyText(shipmentUploadModel.getLoad_value());
+           // RequestBody weight_to_part = Common.getRequestBodyText(shipmentUploadModel.getLoad_weight());
             RequestBody payment_to_part = Common.getRequestBodyText(String.valueOf(payment_method));
 
 
@@ -341,7 +341,7 @@ public class ShipmentActivity extends AppCompatActivity {
 
 
             Api.getService(Tags.base_url)
-                    .sendShippingOrder(order_type_part,user_id_part,description_part,truck_id_part,shipment_type_part,truck_amount_part,shipment_number_part,truck_size_id_part,phone_code_from_part,phone_from_part,company_name_from_part,responsible_name_from_part,company_email_from_part,city_id_from_part,address_from_part,lat_from_part,lng_from_part,date_from_part,phone_code_to_part,phone_to_part,company_name_to_part,responsible_name_to_part,city_id_to_part,address_to_part,company_email_to_part,lat_to_part,lng_to_part,value_to_part,weight_to_part,payment_to_part,date_to_part,image1_part,image2_part)
+                    .sendShippingOrder(order_type_part,user_id_part,description_part,truck_id_part,shipment_type_part,truck_amount_part,truck_size_id_part,phone_code_from_part,phone_from_part,responsible_name_from_part,city_id_from_part,address_from_part,lat_from_part,lng_from_part,date_from_part,phone_code_to_part,phone_to_part,responsible_name_to_part,city_id_to_part,address_to_part,lat_to_part,lng_to_part,payment_to_part,date_to_part,image1_part,image2_part)
                     .enqueue(new Callback<OrderIdModel>() {
                         @Override
                         public void onResponse(Call<OrderIdModel> call, Response<OrderIdModel> response) {

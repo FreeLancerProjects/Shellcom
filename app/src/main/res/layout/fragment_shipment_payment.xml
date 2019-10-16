@@ -130,7 +130,7 @@
 
         </LinearLayout>
 
-        <LinearLayout
+    <!--    <LinearLayout
 
             android:id="@+id/ll3"
             android:layout_width="match_parent"
@@ -179,7 +179,7 @@
                 />
 
         </LinearLayout>
-
+-->
 
         <Button
             android:id="@+id/btn_send"

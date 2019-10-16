@@ -22,7 +22,7 @@
     <string name="Log_out">Logout</string>
 
     <string name="water_arrive">Water Delivery</string>
-    <string name="choose_the_type_of_load">Choose the type of load <font color='red'>*</font></string>
+    <string name="choose_the_type_of_load">Choose the Furniture Type <font color='red'>*</font></string>
     <string name="number_of_trucks">Number of trucks <font color='red'>*</font></string>
     <string name="what_kind_of_truck_do_you_need">What kind of truck do you need? <font color='red'>*</font></string>
 
@@ -61,7 +61,7 @@
     <string name="ok">OK</string>
     <string name="new_user">Sign up.</string>
 
-    <string name="description_of_the_load">Description of the load</string>
+    <string name="description_of_the_load">Description of the Furniture </string>
     <string name="value_of_the_load">Value of the load</string>
     <string name="weight_of_load">Weight of load (max 35 Ton)</string>
     <string name="image_of_load">Please upload a picture of the load</string>
@@ -134,7 +134,7 @@
     <string name="equipment_rental_orders">Equipment Rental Orders</string>
     <string name="back">Back</string>
     <string name="shipment_and_transportation">Shipment and transportation</string>
-    <string name="type_of_load">Type of load</string>
+    <string name="type_of_load">Furniture Type</string>
     <string name="delivery_information">Delivery information</string>
     <string name="ch_truck">Choose truck</string>
     <string name="ch_img">Choose image</string>

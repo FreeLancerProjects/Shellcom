@@ -10,20 +10,20 @@ public class ShipmentUploadModel implements Serializable {
 
     private String from_company_phone_code;
     private String from_company_phone;
-    private String from_company_name;
-    private String from_company_email;
+  //  private String from_company_name;
+    //private String from_company_email;
     private String from_responsible_name;
     private String from_address;
     private String from_city_id;
-    private String shipment_number;
+    //private String shipment_number;
     private double from_lat;
     private double from_lng;
     private long from_date;
 
     private String to_company_phone_code;
     private String to_company_phone;
-    private String to_company_name;
-    private String to_company_email;
+    //private String to_company_name;
+   // private String to_company_email;
     private String to_responsible_name;
     private String to_city_id;
     private String to_address;
@@ -32,8 +32,8 @@ public class ShipmentUploadModel implements Serializable {
     private long to_date;
 
     private String load_description;
-    private String load_value;
-    private String load_weight;
+  //  private String load_value;
+    //private String load_weight;
     private String uri_1;
     private String uri_2;
     private int payment_method;
@@ -87,7 +87,7 @@ public class ShipmentUploadModel implements Serializable {
         this.from_company_phone = from_company_phone;
     }
 
-    public String getFrom_company_name() {
+   /* public String getFrom_company_name() {
         return from_company_name;
     }
 
@@ -102,7 +102,7 @@ public class ShipmentUploadModel implements Serializable {
     public void setFrom_company_email(String from_company_email) {
         this.from_company_email = from_company_email;
     }
-
+*/
     public String getFrom_responsible_name() {
         return from_responsible_name;
     }
@@ -127,13 +127,13 @@ public class ShipmentUploadModel implements Serializable {
         this.from_city_id = from_city_id;
     }
 
-    public String getShipment_number() {
+/*    public String getShipment_number() {
         return shipment_number;
     }
 
     public void setShipment_number(String shipment_number) {
         this.shipment_number = shipment_number;
-    }
+    }*/
 
     public double getFrom_lat() {
         return from_lat;
@@ -174,7 +174,7 @@ public class ShipmentUploadModel implements Serializable {
     public void setTo_company_phone(String to_company_phone) {
         this.to_company_phone = to_company_phone;
     }
-
+/*
     public String getTo_company_name() {
         return to_company_name;
     }
@@ -190,7 +190,7 @@ public class ShipmentUploadModel implements Serializable {
     public void setTo_company_email(String to_company_email) {
         this.to_company_email = to_company_email;
     }
-
+*/
     public String getTo_responsible_name() {
         return to_responsible_name;
     }
@@ -246,7 +246,7 @@ public class ShipmentUploadModel implements Serializable {
     public void setLoad_description(String load_description) {
         this.load_description = load_description;
     }
-
+/*
     public String getLoad_value() {
         return load_value;
     }
@@ -261,7 +261,7 @@ public class ShipmentUploadModel implements Serializable {
 
     public void setLoad_weight(String load_weight) {
         this.load_weight = load_weight;
-    }
+    }*/
 
     public String getUri_1() {
         return uri_1;

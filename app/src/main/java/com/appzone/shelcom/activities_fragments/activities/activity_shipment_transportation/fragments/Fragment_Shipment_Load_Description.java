@@ -37,7 +37,8 @@ import java.io.File;
 public class Fragment_Shipment_Load_Description extends Fragment {
 
     private ImageView image1,image2,icon1,icon2;
-    private EditText edt_description,edt_value,edt_weight;
+    private EditText edt_description;
+  //  private EditText edt_value,edt_weight;
     private FrameLayout fl1,fl2;
     private ShipmentActivity activity;
 
@@ -69,8 +70,8 @@ public class Fragment_Shipment_Load_Description extends Fragment {
         icon1 = view.findViewById(R.id.icon1);
         icon2 = view.findViewById(R.id.icon2);
         edt_description = view.findViewById(R.id.edt_description);
-        edt_value = view.findViewById(R.id.edt_value);
-        edt_weight = view.findViewById(R.id.edt_weight);
+        //edt_value = view.findViewById(R.id.edt_value);
+        //edt_weight = view.findViewById(R.id.edt_weight);
         fl1 = view.findViewById(R.id.fl1);
         fl2 = view.findViewById(R.id.fl2);
 
@@ -92,22 +93,22 @@ public class Fragment_Shipment_Load_Description extends Fragment {
     public boolean isDataOk()
     {
         String m_description = edt_description.getText().toString();
-        String m_value = edt_value.getText().toString().trim();
-        String m_weight = edt_weight.getText().toString().trim();
+       // String m_value = edt_value.getText().toString().trim();
+        //String m_weight = edt_weight.getText().toString().trim();
 
         if (!TextUtils.isEmpty(m_description)&&
-                !TextUtils.isEmpty(m_value)&&
-                !TextUtils.isEmpty(m_weight)&&
-                Integer.parseInt(m_weight)<=35&&
+          //      !TextUtils.isEmpty(m_value)&&
+            //    !TextUtils.isEmpty(m_weight)&&
+              //  Integer.parseInt(m_weight)<=35&&
                 imgUri1!=null&&
                 imgUri2!=null
         )
         {
             edt_description.setError(null);
-            edt_value.setError(null);
-            edt_weight.setError(null);
+          //  edt_value.setError(null);
+            //edt_weight.setError(null);
             Common.CloseKeyBoard(activity,edt_description);
-            activity.saveLoadDescriptionData(m_description,m_value,m_weight,imgUri1,imgUri2);
+            activity.saveLoadDescriptionData(m_description,imgUri1,imgUri2);
             return true;
         }else
             {
@@ -120,7 +121,7 @@ public class Fragment_Shipment_Load_Description extends Fragment {
                         edt_description.setError(null);
 
                     }
-
+/*
                 if (TextUtils.isEmpty(m_value))
                 {
                     edt_value.setError(getString(R.string.field_req));
@@ -139,16 +140,16 @@ public class Fragment_Shipment_Load_Description extends Fragment {
                 {
                     edt_weight.setError(null);
 
-                }
+                }*/
 
                 if (imgUri1==null)
                 {
                     Toast.makeText(activity,getString(R.string.ch_img), Toast.LENGTH_SHORT).show();
                 }
-                if (Integer.parseInt(m_weight)>35)
+             /*   if (Integer.parseInt(m_weight)>35)
                 {
                     Common.CreateSignAlertDialog(activity,getString(R.string.weight_of_load));
-                }
+                }*/
 
                 return false;
             }

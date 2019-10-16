@@ -346,7 +346,7 @@ public class Fragment_Shipment_Container_Type extends Fragment {
         this.load_pos = adapterPosition;
         truck_type_id = loads.getId();
 
-        if (current_language.equals("ar")||current_language.equals("ur"))
+        if (current_language.equals("ar"))
         {
             tv_type.setText(loads.getAr_title_load());
         }else
@@ -364,7 +364,7 @@ public class Fragment_Shipment_Container_Type extends Fragment {
 
     public void setItemOfLoadSize(ContainersModel.Sizes sizes) {
         truck_size_id = sizes.getId();
-        if (current_language.equals("ar")||current_language.equals("ur"))
+        if (current_language.equals("ar"))
         {
             tv_truck_size.setText(sizes.getAr_title_size());
         }else
