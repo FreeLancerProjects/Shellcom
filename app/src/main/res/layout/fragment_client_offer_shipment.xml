@@ -25,7 +25,7 @@
         android:focusable="true"
         app:layout_constraintBottom_toTopOf="@id/ll"
         app:layout_constraintTop_toTopOf="parent"
-        android:visibility="gone"
+        android:visibility="visible"
         >
 
         <com.google.android.material.appbar.AppBarLayout
@@ -359,6 +359,7 @@
                         android:background="@color/gray4"
                         />
                 </LinearLayout>
+                <!--
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -381,7 +382,7 @@
                         android:layout_weight=".65"
                         android:textColor="@color/gray5"
                         />
-                </LinearLayout>
+                </LinearLayout>-->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -581,6 +582,7 @@
                         android:background="@color/gray4"
                         />
                 </LinearLayout>
+                <!--
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -603,7 +605,7 @@
                         android:layout_weight=".65"
                         android:textColor="@color/gray5"
                         />
-                </LinearLayout>
+                </LinearLayout>-->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -696,6 +698,7 @@
                         android:textColor="@color/gray5"
                         />
                 </LinearLayout>
+                <!--
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -765,7 +768,7 @@
                         android:textColor="@color/gray5"
                         />
                 </LinearLayout>
-
+-->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

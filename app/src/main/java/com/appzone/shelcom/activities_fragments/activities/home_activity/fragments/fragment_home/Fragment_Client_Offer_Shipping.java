@@ -54,7 +54,8 @@ public class Fragment_Client_Offer_Shipping extends Fragment {
     private ImageView image_back, image_map_arrow1, image_map_arrow2;
     private LinearLayout ll_back, ll;
     private CircleImageView image;
-    private TextView tv_client_name, tv_order_num, tv_truck_number, tv_truck, tv_load_type, tv_truck_size, tv_from_company_name, tv_from_company_phone, tv_from_responsible, tv_from_address, tv_from_city, tv_load_time, tv_to_company_name, tv_to_company_phone, tv_to_responsible, tv_to_address, tv_to_city, tv_shipment_number, tv_arrival_time, tv_description,tv_value,tv_weight,tv_cost;
+    private TextView tv_client_name, tv_order_num, tv_truck_number, tv_truck, tv_load_type, tv_truck_size, tv_from_company_phone, tv_from_responsible, tv_from_address, tv_from_city, tv_load_time, tv_to_company_phone, tv_to_responsible, tv_to_address, tv_to_city, tv_arrival_time, tv_description,tv_cost;
+    // private TextView tv_from_company_name, tv_to_company_name, tv_shipment_number,tv_value,tv_weight;
     private ProgressBar progBar;
     private CoordinatorLayout cord_layout;
     private FrameLayout fl_view_location1, fl_view_location2;
@@ -114,22 +115,22 @@ public class Fragment_Client_Offer_Shipping extends Fragment {
         tv_truck = view.findViewById(R.id.tv_truck);
         tv_load_type = view.findViewById(R.id.tv_load_type);
         tv_truck_size = view.findViewById(R.id.tv_truck_size);
-        tv_from_company_name = view.findViewById(R.id.tv_from_company_name);
+        //tv_from_company_name = view.findViewById(R.id.tv_from_company_name);
         tv_from_company_phone = view.findViewById(R.id.tv_from_company_phone);
         tv_from_responsible = view.findViewById(R.id.tv_from_responsible);
         tv_from_address = view.findViewById(R.id.tv_from_address);
         tv_from_city = view.findViewById(R.id.tv_from_city);
         tv_load_time = view.findViewById(R.id.tv_load_time);
-        tv_to_company_name = view.findViewById(R.id.tv_to_company_name);
+        //tv_to_company_name = view.findViewById(R.id.tv_to_company_name);
         tv_to_company_phone = view.findViewById(R.id.tv_to_company_phone);
         tv_to_responsible = view.findViewById(R.id.tv_to_responsible);
         tv_to_address = view.findViewById(R.id.tv_to_address);
         tv_to_city = view.findViewById(R.id.tv_to_city);
-        tv_shipment_number = view.findViewById(R.id.tv_shipment_number);
+        //tv_shipment_number = view.findViewById(R.id.tv_shipment_number);
         tv_arrival_time = view.findViewById(R.id.tv_arrival_time);
         tv_description = view.findViewById(R.id.tv_description);
-        tv_value = view.findViewById(R.id.tv_value);
-        tv_weight = view.findViewById(R.id.tv_weight);
+        //tv_value = view.findViewById(R.id.tv_value);
+        //tv_weight = view.findViewById(R.id.tv_weight);
 
 
         progBar = view.findViewById(R.id.progBar);
@@ -339,7 +340,7 @@ public class Fragment_Client_Offer_Shipping extends Fragment {
             tv_to_city.setText(shippingOrderDetailsModel.getOrder_details().getEn_city_title_to());
 
         }
-        tv_from_company_name.setText(shippingOrderDetailsModel.getOrder_details().getCompany_name_from());
+     //   tv_from_company_name.setText(shippingOrderDetailsModel.getOrder_details().getCompany_name_from());
         tv_from_company_phone.setText(String.format("%s %s", shippingOrderDetailsModel.getOrder_details().getPhone_code_from().replaceFirst("00", "+"), shippingOrderDetailsModel.getOrder_details().getPhone_from()));
         tv_from_responsible.setText(shippingOrderDetailsModel.getOrder_details().getResponsible_from());
         tv_from_address.setText(shippingOrderDetailsModel.getOrder_details().getAddress_from());
@@ -354,13 +355,13 @@ public class Fragment_Client_Offer_Shipping extends Fragment {
         String date_to = dateFormat2.format(new Date(Long.parseLong(shippingOrderDetailsModel.getOrder_details().getDate_to())*1000));
         tv_arrival_time.setText(date_to);
 
-        tv_to_company_name.setText(shippingOrderDetailsModel.getOrder_details().getCompany_name_to());
+       // tv_to_company_name.setText(shippingOrderDetailsModel.getOrder_details().getCompany_name_to());
         tv_to_responsible.setText(shippingOrderDetailsModel.getOrder_details().getResponsible_to());
         tv_to_address.setText(shippingOrderDetailsModel.getOrder_details().getAddress_to());
-        tv_shipment_number.setText(shippingOrderDetailsModel.getOrder_details().getNum_of_shipping());
+        //tv_shipment_number.setText(shippingOrderDetailsModel.getOrder_details().getNum_of_shipping());
         tv_description.setText(shippingOrderDetailsModel.getOrder_details().getDescription());
-        tv_value.setText(shippingOrderDetailsModel.getOrder_details().getValue());
-        tv_weight.setText(shippingOrderDetailsModel.getOrder_details().getWeight());
+        //tv_value.setText(shippingOrderDetailsModel.getOrder_details().getValue());
+        //tv_weight.setText(shippingOrderDetailsModel.getOrder_details().getWeight());
         tv_cost.setText(String.format("%s %s",price,getString(R.string.sar)));
 
     }

@@ -336,6 +336,7 @@
                         android:background="@color/gray4"
                         />
                 </LinearLayout>
+                <!--
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -358,7 +359,7 @@
                         android:layout_weight=".65"
                         android:textColor="@color/gray5"
                         />
-                </LinearLayout>
+                </LinearLayout>-->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -559,6 +560,7 @@
                         android:background="@color/gray4"
                         />
                 </LinearLayout>
+                <!--
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -581,7 +583,7 @@
                         android:layout_weight=".65"
                         android:textColor="@color/gray5"
                         />
-                </LinearLayout>
+                </LinearLayout>-->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -674,6 +676,7 @@
                         android:textColor="@color/gray5"
                         />
                 </LinearLayout>
+                <!--
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -743,7 +746,7 @@
                         android:textColor="@color/gray5"
                         />
                 </LinearLayout>
-
+-->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
