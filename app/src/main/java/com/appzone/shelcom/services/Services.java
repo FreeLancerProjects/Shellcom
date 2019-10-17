@@ -62,7 +62,7 @@ public interface Services {
 
     );
 
-    @GET("Api/slider")
+    @GET("api/all-sliders")
     Call<SliderDataModel> getSliders();
 
     @GET("place/findplacefromtext/json")

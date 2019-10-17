@@ -43,7 +43,7 @@
     <string name="country_arrive">country Arrive</string>
     <string name="city_Arrive">city_Arrive</string>
     <string name="time_of_arrive">Time Of Arrive</string>
-    <string name="shipping_and_transportation">Shipment and transfer</string>
+    <string name="shipping_and_transportation">Furniture Transfer</string>
     <string name="rental_equipment">Rental equipment</string>
     <string name="other_services">Other Services</string>
 
@@ -130,10 +130,10 @@
     <string name="not">Notifications</string>
     <string name="no_notifications_to_display">No notifications to display</string>
     <string name="water_delivery_order">Water Delivery Orders</string>
-    <string name="shipping_and_transportation_orders">Shipping and Transportation Orders</string>
+    <string name="shipping_and_transportation_orders">Furniture Orders</string>
     <string name="equipment_rental_orders">Equipment Rental Orders</string>
     <string name="back">Back</string>
-    <string name="shipment_and_transportation">Shipment and transportation</string>
+    <string name="shipment_and_transportation">Furniture</string>
     <string name="type_of_load">Furniture Type</string>
     <string name="delivery_information">Delivery information</string>
     <string name="ch_truck">Choose truck</string>
@@ -177,7 +177,7 @@
     <string name="sel_cus_img">Select Customs card</string>
     <string name="the_type_of_shipment_required_from_abroad">The type of shipment required from abroad</string>
     <string name="size_of_truck">Size of truck</string>
-    <string name="type_of_load3">Type of shipment</string>
+    <string name="type_of_load3">Type of Furniture</string>
     <string name="number_of_truck2">Number of truck</string>
     <string name="no_load_to_display">There is no shipment type to display</string>
     <string name="no_sizes">There are no sizes to display</string>
@@ -196,7 +196,7 @@
     <string name="day">D</string>
     <string name="wd">Water Delivery</string>
     <string name="re">Rental Equipment</string>
-    <string name="st">Shipping and transportation</string>
+    <string name="st">Furniture</string>
     <string name="con">Containers</string>
     <string name="cc">Customs Clearance</string>
     <string name="ec">Engineering Consultances</string>
@@ -211,7 +211,7 @@
     <string name="show_on_map">View location on map</string>
     <string name="cost">Cost</string>
     <string name="num_truck">Numbers of trucks</string>
-    <string name="ship_trans">Shipping and transportation</string>
+    <string name="ship_trans">Furniture</string>
     <string name="from">From</string>
     <string name="load_time">Load time</string>
     <string name="to">To</string>

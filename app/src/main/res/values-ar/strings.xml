@@ -118,10 +118,10 @@
     <string name="not">إشعارات</string>
     <string name="no_notifications_to_display">لا توجد إشعارات لعرضها</string>
     <string name="water_delivery_order">طلبات توصيل مياة</string>
-    <string name="shipping_and_transportation_orders">طلبات شحن ونقل</string>
+    <string name="shipping_and_transportation_orders">طلبات نقل عفش</string>
     <string name="equipment_rental_orders">طلبات تأجير معدات</string>
     <string name="back">رجوع</string>
-    <string name="shipment_and_transportation">شحن ونقل</string>
+    <string name="shipment_and_transportation">نقل عفش</string>
     <string name="type_of_load">نوع العفش</string>
     <string name="delivery_information">نرجو تزويدنا بمعلومات التوصيل</string>
     <string name="ch_truck">إختر الشاحنة</string>
@@ -187,7 +187,7 @@
     <string name="day">يوم</string>
     <string name="wd">توصيل مياة</string>
     <string name="re">تأجير معدات</string>
-    <string name="st">شحن ونقل</string>
+    <string name="st">نقل عفش</string>
     <string name="con">حاويات</string>
     <string name="cc">تخليص جمركي</string>
     <string name="ec">إستشارات هندسية</string>
@@ -202,7 +202,7 @@
     <string name="show_on_map">عرض الموقع على الخريطة</string>
     <string name="cost">التكلفة</string>
     <string name="num_truck">عدد الشاحنات</string>
-    <string name="ship_trans">طلب شحن ونقل</string>
+    <string name="ship_trans">طلب نقل عفش</string>
     <string name="from">من</string>
     <string name="load_time">وقت التحميل</string>
     <string name="to">إلى</string>

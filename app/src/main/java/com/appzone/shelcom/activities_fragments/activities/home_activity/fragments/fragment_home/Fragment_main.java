@@ -155,7 +155,7 @@ card_container=view.findViewById(R.id.card_container);
 
     private void getSlider()
     {
-        Api.getService(Tags.base_url2)
+        Api.getService(Tags.base_url)
                 .getSliders()
                 .enqueue(new Callback<SliderDataModel>() {
                     @Override

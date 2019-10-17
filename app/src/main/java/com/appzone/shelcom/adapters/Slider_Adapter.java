@@ -50,7 +50,7 @@ public class Slider_Adapter extends PagerAdapter {
 
         SliderDataModel.SliderModel  sliderModel = sliderModelList.get(position);
         final ImageView image = view.findViewById(R.id.image);
-        Picasso.with(context).load(Uri.parse(Tags.IMAGE_USERS_URL2+sliderModel.getImage())).fit().placeholder(R.drawable.logo_512).into(image);
+        Picasso.with(context).load(Uri.parse(Tags.IMAGE_SLIDER_URL+sliderModel.getUrl())).fit().placeholder(R.drawable.logo_512).into(image);
 
         container.addView(view);
         return view;

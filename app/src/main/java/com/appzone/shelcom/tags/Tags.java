@@ -2,9 +2,7 @@ package com.appzone.shelcom.tags;
 
 public class Tags {
 
-   public static String base_url = "http://emdad.creativeshare.sa/";
-   public static final String base_url2 = "http://sheelcom.com";
-   public static final String IMAGE_USERS_URL2 = base_url2+"/uploads/images/";
+   public static String base_url = "http://sheelcom.com/";
 
    public static final String IMAGE_USERS_URL = base_url+"upload/users/";
    public static final String IMAGE_COMPANY_URL = base_url+"upload/company/";
