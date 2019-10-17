@@ -170,7 +170,7 @@
     <string name="size_of_truck">حجم الشاحنة</string>
     <string name="type_of_load3">نوع الحمولة</string>
     <string name="number_of_truck2">عدد الشاحنات</string>
-    <string name="no_load_to_display">لا يوجد أنواع شحنة لعضها</string>
+    <string name="no_load_to_display">لا يوجد أنواع شحنة لعرضها</string>
     <string name="no_sizes">لا توجد أحجام لعرضها</string>
     <string name="number_of_truck">عدد الشاحنات</string>
     <string name="ch_trc_number">إختر عدد الشاحنات</string>
